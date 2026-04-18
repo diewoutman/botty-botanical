@@ -14,18 +14,20 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Liliaceae",
       "genus": "Tulipa",
       "species": "Tulipa gesneriana"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "20-60 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente",
+      "nativeRange": "Centraal-Azie, Europa"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/tulipa-gesneriana.jpg",
     "category": "flower",
     "popularityScore": 100
   },
@@ -44,18 +46,20 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Amaryllidaceae",
       "genus": "Narcissus",
       "species": "Narcissus pseudonarcissus"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-45 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "West-Europa"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/narcissus-pseudonarcissus.jpg",
     "category": "flower",
     "popularityScore": 100
   },
@@ -74,20 +78,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asparagaceae",
       "genus": "Hyacinthus",
       "species": "Hyacinthus orientalis"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "15-30 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente",
+      "nativeRange": "Oost-Middellandse Zee"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/hyacinthus-orientalis.jpg",
     "category": "flower",
-    "popularityScore": 100
+    "popularityScore": 99
   },
   {
     "id": "crocus-vernus",
@@ -104,20 +110,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Iridaceae",
       "genus": "Crocus",
       "species": "Crocus vernus"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "8-15 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/crocus-vernus.jpg",
     "category": "flower",
-    "popularityScore": 100
+    "popularityScore": 99
   },
   {
     "id": "convallaria-majalis",
@@ -134,20 +142,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asparagaceae",
       "genus": "Convallaria",
       "species": "Convallaria majalis"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "15-25 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa, Azie"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/convallaria-majalis.jpg",
     "category": "flower",
-    "popularityScore": 100
+    "popularityScore": 98
   },
   {
     "id": "quercus-robur",
@@ -164,20 +174,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Fagaceae",
       "genus": "Quercus",
       "species": "Quercus robur"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "20-40 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 95
+    "thumbnail": "assets/images/thumbs/quercus-robur.jpg",
+    "category": "tree",
+    "popularityScore": 98
   },
   {
     "id": "fagus-sylvatica",
@@ -194,20 +206,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Fagaceae",
       "genus": "Fagus",
       "species": "Fagus sylvatica"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "25-40 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 95
+    "thumbnail": "assets/images/thumbs/fagus-sylvatica.jpg",
+    "category": "tree",
+    "popularityScore": 97
   },
   {
     "id": "urtica-dioica",
@@ -224,20 +238,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Urticaceae",
       "genus": "Urtica",
       "species": "Urtica dioica"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Uitstekend",
+      "height": "30-150 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa, Azie"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 90
+    "thumbnail": "assets/images/thumbs/urtica-dioica.jpg",
+    "category": "herb",
+    "popularityScore": 97
   },
   {
     "id": "taraxacum-officinale",
@@ -254,26 +270,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asteraceae",
       "genus": "Taraxacum",
       "species": "Taraxacum officinale"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Uitstekend",
+      "height": "10-40 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 95
+    "thumbnail": "assets/images/thumbs/taraxacum-officinale.jpg",
+    "category": "herb",
+    "popularityScore": 96
   },
   {
     "id": "plantago-major",
     "latinName": "Plantago major",
     "names": {
-      "nl": "Wegerich",
+      "nl": "Grote weegbree",
       "en": "",
       "de": "",
       "fr": "",
@@ -284,20 +302,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Plantaginaceae",
       "genus": "Plantago",
       "species": "Plantago major"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "10-50 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa, Azie"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 90
+    "thumbnail": "assets/images/thumbs/plantago-major.jpg",
+    "category": "herb",
+    "popularityScore": 96
   },
   {
     "id": "helianthus-annuus",
@@ -314,20 +334,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asteraceae",
       "genus": "Helianthus",
       "species": "Helianthus annuus"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Gevoelig",
+      "height": "1-3 m",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Noord-Amerika"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/helianthus-annuus.jpg",
     "category": "flower",
-    "popularityScore": 90
+    "popularityScore": 95
   },
   {
     "id": "trifolium-repens",
@@ -344,26 +366,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Fabaceae",
       "genus": "Trifolium",
       "species": "Trifolium repens"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "5-20 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 85
+    "thumbnail": "assets/images/thumbs/trifolium-repens.jpg",
+    "category": "herb",
+    "popularityScore": 95
   },
   {
     "id": "bellis-perennis",
     "latinName": "Bellis perennis",
     "names": {
-      "nl": "Margriet",
+      "nl": "Madeliefje",
       "en": "",
       "de": "",
       "fr": "",
@@ -374,26 +398,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asteraceae",
       "genus": "Bellis",
       "species": "Bellis perennis"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "5-20 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-herfst",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/bellis-perennis.jpg",
     "category": "flower",
-    "popularityScore": 85
+    "popularityScore": 94
   },
   {
     "id": "rosa-canina",
     "latinName": "Rosa canina",
     "names": {
-      "nl": "Wilde roos",
+      "nl": "Hondsroos",
       "en": "",
       "de": "",
       "fr": "",
@@ -404,20 +430,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Rosaceae",
       "genus": "Rosa",
       "species": "Rosa canina"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "1-3 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa, West-Azie"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 85
+    "thumbnail": "assets/images/thumbs/rosa-canina.jpg",
+    "category": "shrub",
+    "popularityScore": 94
   },
   {
     "id": "acer-platanoides",
@@ -434,26 +462,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Sapindaceae",
       "genus": "Acer",
       "species": "Acer platanoides"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 80
+    "thumbnail": "assets/images/thumbs/acer-platanoides.jpg",
+    "category": "tree",
+    "popularityScore": 93
   },
   {
     "id": "betula-pendula",
     "latinName": "Betula pendula",
     "names": {
-      "nl": "Zilverberk",
+      "nl": "Ruwe berk",
       "en": "",
       "de": "",
       "fr": "",
@@ -464,20 +494,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Betulaceae",
       "genus": "Betula",
       "species": "Betula pendula"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Uitstekend",
+      "height": "15-25 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa, Azie"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 80
+    "thumbnail": "assets/images/thumbs/betula-pendula.jpg",
+    "category": "tree",
+    "popularityScore": 93
   },
   {
     "id": "salix-alba",
@@ -494,26 +526,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Salicaceae",
       "genus": "Salix",
       "species": "Salix alba"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 80
+    "thumbnail": "assets/images/thumbs/salix-alba.jpg",
+    "category": "tree",
+    "popularityScore": 92
   },
   {
     "id": "prunus-avium",
     "latinName": "Prunus avium",
     "names": {
-      "nl": "Wilde kersenboom",
+      "nl": "Zoete kers",
       "en": "",
       "de": "",
       "fr": "",
@@ -524,20 +558,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Rosaceae",
       "genus": "Prunus",
       "species": "Prunus avium"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "15-25 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 75
+    "thumbnail": "assets/images/thumbs/prunus-avium.jpg",
+    "category": "tree",
+    "popularityScore": 92
   },
   {
     "id": "sambucus-nigra",
@@ -554,20 +590,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Adoxaceae",
       "genus": "Sambucus",
       "species": "Sambucus nigra"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "3-7 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 80
+    "thumbnail": "assets/images/thumbs/sambucus-nigra.jpg",
+    "category": "shrub",
+    "popularityScore": 91
   },
   {
     "id": "crataegus-monogyna",
@@ -584,20 +622,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Rosaceae",
       "genus": "Crataegus",
       "species": "Crataegus monogyna"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Uitstekend",
+      "height": "2-8 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 75
+    "thumbnail": "assets/images/thumbs/crataegus-monogyna.jpg",
+    "category": "shrub",
+    "popularityScore": 91
   },
   {
     "id": "alnus-glutinosa",
@@ -614,26 +654,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Betulaceae",
       "genus": "Alnus",
       "species": "Alnus glutinosa"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 75
+    "thumbnail": "assets/images/thumbs/alnus-glutinosa.jpg",
+    "category": "tree",
+    "popularityScore": 90
   },
   {
     "id": "frangula-alnus",
     "latinName": "Frangula alnus",
     "names": {
-      "nl": "Vuilboom",
+      "nl": "Sporkehout",
       "en": "",
       "de": "",
       "fr": "",
@@ -644,26 +686,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Rhamnaceae",
       "genus": "Frangula",
       "species": "Frangula alnus"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 70
+    "thumbnail": "assets/images/thumbs/frangula-alnus.jpg",
+    "category": "shrub",
+    "popularityScore": 90
   },
   {
     "id": "rumex-obtusifolius",
     "latinName": "Rumex obtusifolius",
     "names": {
-      "nl": "Ronde zuuring",
+      "nl": "Ridderzuring",
       "en": "",
       "de": "",
       "fr": "",
@@ -674,20 +718,22 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Polygonaceae",
       "genus": "Rumex",
       "species": "Rumex obtusifolius"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "50-120 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
-    "category": "flower",
-    "popularityScore": 70
+    "thumbnail": "assets/images/thumbs/rumex-obtusifolius.jpg",
+    "category": "herb",
+    "popularityScore": 89
   },
   {
     "id": "centaurea-cyanus",
@@ -704,26 +750,28 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Asteraceae",
       "genus": "Centaurea",
       "species": "Centaurea cyanus"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "30-80 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
     },
-    "thumbnail": null,
+    "thumbnail": "assets/images/thumbs/centaurea-cyanus.jpg",
     "category": "flower",
-    "popularityScore": 85
+    "popularityScore": 89
   },
   {
     "id": "papaver-rhoeas",
     "latinName": "Papaver rhoeas",
     "names": {
-      "nl": "Grote klaproos",
+      "nl": "Klaproos",
       "en": "",
       "de": "",
       "fr": "",
@@ -734,19 +782,2421 @@
       "phylum": "Tracheophyta",
       "class": "Magnoliopsida",
       "order": "",
-      "family": "",
+      "family": "Papaveraceae",
       "genus": "Papaver",
       "species": "Papaver rhoeas"
     },
     "traits": {
-      "sun": "",
-      "water": "",
-      "hardiness": "",
-      "height": "",
-      "growthHabit": ""
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "30-70 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/papaver-rhoeas.jpg",
+    "category": "flower",
+    "popularityScore": 88
+  },
+  {
+    "id": "achillea-millefolium",
+    "latinName": "Achillea millefolium",
+    "names": {
+      "nl": "Duizendblad",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Achillea",
+      "species": "Achillea millefolium"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "20-80 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/achillea-millefolium.jpg",
+    "category": "herb",
+    "popularityScore": 88
+  },
+  {
+    "id": "ranunculus-acris",
+    "latinName": "Ranunculus acris",
+    "names": {
+      "nl": "Scherpe boterbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Ranunculaceae",
+      "genus": "Ranunculus",
+      "species": "Ranunculus acris"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-90 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/ranunculus-acris.jpg",
+    "category": "flower",
+    "popularityScore": 87
+  },
+  {
+    "id": "primula-vulgaris",
+    "latinName": "Primula vulgaris",
+    "names": {
+      "nl": "Sleutelbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Primulaceae",
+      "genus": "Primula",
+      "species": "Primula vulgaris"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "10-25 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/primula-vulgaris.jpg",
+    "category": "flower",
+    "popularityScore": 87
+  },
+  {
+    "id": "viola-odorata",
+    "latinName": "Viola odorata",
+    "names": {
+      "nl": "Maarts viooltje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Violaceae",
+      "genus": "Viola",
+      "species": "Viola odorata"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "5-15 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/viola-odorata.jpg",
+    "category": "flower",
+    "popularityScore": 86
+  },
+  {
+    "id": "lamium-album",
+    "latinName": "Lamium album",
+    "names": {
+      "nl": "Witte dovenetel",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Lamium",
+      "species": "Lamium album"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-60 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Lente-herfst",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/lamium-album.jpg",
+    "category": "herb",
+    "popularityScore": 86
+  },
+  {
+    "id": "digitalis-purpurea",
+    "latinName": "Digitalis purpurea",
+    "names": {
+      "nl": "Vingerhoedskruid",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Plantaginaceae",
+      "genus": "Digitalis",
+      "species": "Digitalis purpurea"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "60-150 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "West-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/digitalis-purpurea.jpg",
+    "category": "flower",
+    "popularityScore": 85
+  },
+  {
+    "id": "hypericum-perforatum",
+    "latinName": "Hypericum perforatum",
+    "names": {
+      "nl": "Sint-janskruid",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Hypericaceae",
+      "genus": "Hypericum",
+      "species": "Hypericum perforatum"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "30-90 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "herb",
+    "popularityScore": 85
+  },
+  {
+    "id": "matricaria-chamomilla",
+    "latinName": "Matricaria chamomilla",
+    "names": {
+      "nl": "Echte kamille",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Matricaria",
+      "species": "Matricaria chamomilla"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "15-50 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/matricaria-chamomilla.jpg",
+    "category": "herb",
+    "popularityScore": 84
+  },
+  {
+    "id": "calendula-officinalis",
+    "latinName": "Calendula officinalis",
+    "names": {
+      "nl": "Goudsbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Calendula",
+      "species": "Calendula officinalis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "30-60 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer-herfst",
+      "nativeRange": "Middellandse Zee"
     },
     "thumbnail": null,
     "category": "flower",
-    "popularityScore": 85
+    "popularityScore": 84
+  },
+  {
+    "id": "lavandula-angustifolia",
+    "latinName": "Lavandula angustifolia",
+    "names": {
+      "nl": "Lavendel",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Lavandula",
+      "species": "Lavandula angustifolia"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "30-70 cm",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Zuid-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/lavandula-angustifolia.jpg",
+    "category": "shrub",
+    "popularityScore": 83
+  },
+  {
+    "id": "salvia-officinalis",
+    "latinName": "Salvia officinalis",
+    "names": {
+      "nl": "Salie",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "species": "Salvia officinalis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "30-70 cm",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Middellandse Zee"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 83
+  },
+  {
+    "id": "thymus-vulgaris",
+    "latinName": "Thymus vulgaris",
+    "names": {
+      "nl": "Tijm",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Thymus",
+      "species": "Thymus vulgaris"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Matig",
+      "height": "10-30 cm",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Zuid-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/thymus-vulgaris.jpg",
+    "category": "shrub",
+    "popularityScore": 82
+  },
+  {
+    "id": "origanum-vulgare",
+    "latinName": "Origanum vulgare",
+    "names": {
+      "nl": "Oregano",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Origanum",
+      "species": "Origanum vulgare"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "30-80 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/origanum-vulgare.jpg",
+    "category": "herb",
+    "popularityScore": 82
+  },
+  {
+    "id": "mentha-aquatica",
+    "latinName": "Mentha aquatica",
+    "names": {
+      "nl": "Watermunt",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "species": "Mentha aquatica"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "30-90 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "herb",
+    "popularityScore": 81
+  },
+  {
+    "id": "melissa-officinalis",
+    "latinName": "Melissa officinalis",
+    "names": {
+      "nl": "Citroenmelisse",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Melissa",
+      "species": "Melissa officinalis"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-80 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Zuid-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/melissa-officinalis.jpg",
+    "category": "herb",
+    "popularityScore": 81
+  },
+  {
+    "id": "rosmarinus-officinalis",
+    "latinName": "Rosmarinus officinalis",
+    "names": {
+      "nl": "Rozemarijn",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Lamiaceae",
+      "genus": "Rosmarinus",
+      "species": "Rosmarinus officinalis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Gevoelig",
+      "height": "50-150 cm",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Middellandse Zee"
+    },
+    "thumbnail": "assets/images/thumbs/rosmarinus-officinalis.jpg",
+    "category": "shrub",
+    "popularityScore": 80
+  },
+  {
+    "id": "artemisia-absinthium",
+    "latinName": "Artemisia absinthium",
+    "names": {
+      "nl": "Absintalsem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "species": "Artemisia absinthium"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "60-120 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/artemisia-absinthium.jpg",
+    "category": "herb",
+    "popularityScore": 80
+  },
+  {
+    "id": "echinacea-purpurea",
+    "latinName": "Echinacea purpurea",
+    "names": {
+      "nl": "Rode zonnehoed",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Echinacea",
+      "species": "Echinacea purpurea"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "60-120 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Noord-Amerika"
+    },
+    "thumbnail": "assets/images/thumbs/echinacea-purpurea.jpg",
+    "category": "flower",
+    "popularityScore": 79
+  },
+  {
+    "id": "valeriana-officinalis",
+    "latinName": "Valeriana officinalis",
+    "names": {
+      "nl": "Valeriaan",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Caprifoliaceae",
+      "genus": "Valeriana",
+      "species": "Valeriana officinalis"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "80-150 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/valeriana-officinalis.jpg",
+    "category": "herb",
+    "popularityScore": 79
+  },
+  {
+    "id": "verbena-officinalis",
+    "latinName": "Verbena officinalis",
+    "names": {
+      "nl": "Ijzerhard",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "species": "Verbena officinalis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "30-80 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/verbena-officinalis.jpg",
+    "category": "herb",
+    "popularityScore": 78
+  },
+  {
+    "id": "malva-sylvestris",
+    "latinName": "Malva sylvestris",
+    "names": {
+      "nl": "Groot kaasjeskruid",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Malvaceae",
+      "genus": "Malva",
+      "species": "Malva sylvestris"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-120 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer-herfst",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/malva-sylvestris.jpg",
+    "category": "flower",
+    "popularityScore": 78
+  },
+  {
+    "id": "cichorium-intybus",
+    "latinName": "Cichorium intybus",
+    "names": {
+      "nl": "Wilde cichorei",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Cichorium",
+      "species": "Cichorium intybus"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "30-120 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/cichorium-intybus.jpg",
+    "category": "herb",
+    "popularityScore": 77
+  },
+  {
+    "id": "chelidonium-majus",
+    "latinName": "Chelidonium majus",
+    "names": {
+      "nl": "Stinkende gouwe",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Papaveraceae",
+      "genus": "Chelidonium",
+      "species": "Chelidonium majus"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-90 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/chelidonium-majus.jpg",
+    "category": "herb",
+    "popularityScore": 77
+  },
+  {
+    "id": "geranium-robertianum",
+    "latinName": "Geranium robertianum",
+    "names": {
+      "nl": "Robertskruid",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Geraniaceae",
+      "genus": "Geranium",
+      "species": "Geranium robertianum"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-50 cm",
+      "growthHabit": "herb",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/geranium-robertianum.jpg",
+    "category": "herb",
+    "popularityScore": 76
+  },
+  {
+    "id": "poa-pratensis",
+    "latinName": "Poa pratensis",
+    "names": {
+      "nl": "Veldbeemdgras",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Poa",
+      "species": "Poa pratensis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "30-90 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/poa-pratensis.jpg",
+    "category": "grass",
+    "popularityScore": 76
+  },
+  {
+    "id": "dactylis-glomerata",
+    "latinName": "Dactylis glomerata",
+    "names": {
+      "nl": "Kropaar",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Dactylis",
+      "species": "Dactylis glomerata"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "40-120 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/dactylis-glomerata.jpg",
+    "category": "grass",
+    "popularityScore": 75
+  },
+  {
+    "id": "lolium-perenne",
+    "latinName": "Lolium perenne",
+    "names": {
+      "nl": "Engels raaigras",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Lolium",
+      "species": "Lolium perenne"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "20-70 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/lolium-perenne.jpg",
+    "category": "grass",
+    "popularityScore": 75
+  },
+  {
+    "id": "festuca-rubra",
+    "latinName": "Festuca rubra",
+    "names": {
+      "nl": "Rood zwenkgras",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Festuca",
+      "species": "Festuca rubra"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Laag",
+      "hardiness": "Uitstekend",
+      "height": "20-80 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "grass",
+    "popularityScore": 74
+  },
+  {
+    "id": "phleum-pratense",
+    "latinName": "Phleum pratense",
+    "names": {
+      "nl": "Timotheegras",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Phleum",
+      "species": "Phleum pratense"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "50-120 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/phleum-pratense.jpg",
+    "category": "grass",
+    "popularityScore": 74
+  },
+  {
+    "id": "deschampsia-cespitosa",
+    "latinName": "Deschampsia cespitosa",
+    "names": {
+      "nl": "Ruwe smele",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Deschampsia",
+      "species": "Deschampsia cespitosa"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "50-150 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "grass",
+    "popularityScore": 73
+  },
+  {
+    "id": "carex-acutiformis",
+    "latinName": "Carex acutiformis",
+    "names": {
+      "nl": "Moeraszegge",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Cyperaceae",
+      "genus": "Carex",
+      "species": "Carex acutiformis"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "50-120 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/carex-acutiformis.jpg",
+    "category": "grass",
+    "popularityScore": 73
+  },
+  {
+    "id": "juncus-effusus",
+    "latinName": "Juncus effusus",
+    "names": {
+      "nl": "Pitrus",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Juncaceae",
+      "genus": "Juncus",
+      "species": "Juncus effusus"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "40-120 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/juncus-effusus.jpg",
+    "category": "grass",
+    "popularityScore": 72
+  },
+  {
+    "id": "phragmites-australis",
+    "latinName": "Phragmites australis",
+    "names": {
+      "nl": "Riet",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Phragmites",
+      "species": "Phragmites australis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "150-400 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Wereldwijd"
+    },
+    "thumbnail": "assets/images/thumbs/phragmites-australis.jpg",
+    "category": "grass",
+    "popularityScore": 72
+  },
+  {
+    "id": "molinia-caerulea",
+    "latinName": "Molinia caerulea",
+    "names": {
+      "nl": "Pijpenstrootje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Poaceae",
+      "genus": "Molinia",
+      "species": "Molinia caerulea"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "40-150 cm",
+      "growthHabit": "grass",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/molinia-caerulea.jpg",
+    "category": "grass",
+    "popularityScore": 71
+  },
+  {
+    "id": "dryopteris-filix-mas",
+    "latinName": "Dryopteris filix-mas",
+    "names": {
+      "nl": "Mannetjesvaren",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "",
+      "family": "Dryopteridaceae",
+      "genus": "Dryopteris",
+      "species": "Dryopteris filix-mas"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "40-120 cm",
+      "growthHabit": "fern",
+      "bloomTime": "Geen bloemen",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/dryopteris-filix-mas.jpg",
+    "category": "fern",
+    "popularityScore": 71
+  },
+  {
+    "id": "pteridium-aquilinum",
+    "latinName": "Pteridium aquilinum",
+    "names": {
+      "nl": "Adelaarsvaren",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "",
+      "family": "Dennstaedtiaceae",
+      "genus": "Pteridium",
+      "species": "Pteridium aquilinum"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "60-200 cm",
+      "growthHabit": "fern",
+      "bloomTime": "Geen bloemen",
+      "nativeRange": "Wereldwijd"
+    },
+    "thumbnail": "assets/images/thumbs/pteridium-aquilinum.jpg",
+    "category": "fern",
+    "popularityScore": 70
+  },
+  {
+    "id": "athyrium-filix-femina",
+    "latinName": "Athyrium filix-femina",
+    "names": {
+      "nl": "Wijfjesvaren",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "",
+      "family": "Athyriaceae",
+      "genus": "Athyrium",
+      "species": "Athyrium filix-femina"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "50-120 cm",
+      "growthHabit": "fern",
+      "bloomTime": "Geen bloemen",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/athyrium-filix-femina.jpg",
+    "category": "fern",
+    "popularityScore": 70
+  },
+  {
+    "id": "polypodium-vulgare",
+    "latinName": "Polypodium vulgare",
+    "names": {
+      "nl": "Eikvaren",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "",
+      "family": "Polypodiaceae",
+      "genus": "Polypodium",
+      "species": "Polypodium vulgare"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "10-40 cm",
+      "growthHabit": "fern",
+      "bloomTime": "Geen bloemen",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "fern",
+    "popularityScore": 69
+  },
+  {
+    "id": "asplenium-scolopendrium",
+    "latinName": "Asplenium scolopendrium",
+    "names": {
+      "nl": "Tongvaren",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "",
+      "family": "Aspleniaceae",
+      "genus": "Asplenium",
+      "species": "Asplenium scolopendrium"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-60 cm",
+      "growthHabit": "fern",
+      "bloomTime": "Geen bloemen",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "fern",
+    "popularityScore": 69
+  },
+  {
+    "id": "pinus-sylvestris",
+    "latinName": "Pinus sylvestris",
+    "names": {
+      "nl": "Grove den",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "Pinus sylvestris"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Uitstekend",
+      "height": "20-35 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/pinus-sylvestris.jpg",
+    "category": "tree",
+    "popularityScore": 68
+  },
+  {
+    "id": "picea-abies",
+    "latinName": "Picea abies",
+    "names": {
+      "nl": "Fijnspar",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Pinaceae",
+      "genus": "Picea",
+      "species": "Picea abies"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-50 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Noord-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/picea-abies.jpg",
+    "category": "tree",
+    "popularityScore": 68
+  },
+  {
+    "id": "abies-alba",
+    "latinName": "Abies alba",
+    "names": {
+      "nl": "Zilverspar",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Pinaceae",
+      "genus": "Abies",
+      "species": "Abies alba"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-50 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/abies-alba.jpg",
+    "category": "tree",
+    "popularityScore": 67
+  },
+  {
+    "id": "larix-decidua",
+    "latinName": "Larix decidua",
+    "names": {
+      "nl": "Europese lariks",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Pinaceae",
+      "genus": "Larix",
+      "species": "Larix decidua"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-40 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Centraal-Europa"
+    },
+    "thumbnail": null,
+    "category": "tree",
+    "popularityScore": 67
+  },
+  {
+    "id": "taxus-baccata",
+    "latinName": "Taxus baccata",
+    "names": {
+      "nl": "Venijnboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Taxaceae",
+      "genus": "Taxus",
+      "species": "Taxus baccata"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "10-20 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/taxus-baccata.jpg",
+    "category": "tree",
+    "popularityScore": 66
+  },
+  {
+    "id": "juniperus-communis",
+    "latinName": "Juniperus communis",
+    "names": {
+      "nl": "Jeneverbes",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Cupressaceae",
+      "genus": "Juniperus",
+      "species": "Juniperus communis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "1-10 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente",
+      "nativeRange": "Noordelijk halfrond"
+    },
+    "thumbnail": "assets/images/thumbs/juniperus-communis.jpg",
+    "category": "shrub",
+    "popularityScore": 66
+  },
+  {
+    "id": "corylus-avellana",
+    "latinName": "Corylus avellana",
+    "names": {
+      "nl": "Hazelaar",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Betulaceae",
+      "genus": "Corylus",
+      "species": "Corylus avellana"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "3-8 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/corylus-avellana.jpg",
+    "category": "shrub",
+    "popularityScore": 65
+  },
+  {
+    "id": "ilex-aquifolium",
+    "latinName": "Ilex aquifolium",
+    "names": {
+      "nl": "Hulst",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Aquifoliaceae",
+      "genus": "Ilex",
+      "species": "Ilex aquifolium"
+    },
+    "traits": {
+      "sun": "Schaduw-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-10 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 65
+  },
+  {
+    "id": "buxus-sempervirens",
+    "latinName": "Buxus sempervirens",
+    "names": {
+      "nl": "Buxus",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Buxaceae",
+      "genus": "Buxus",
+      "species": "Buxus sempervirens"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "1-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/buxus-sempervirens.jpg",
+    "category": "shrub",
+    "popularityScore": 64
+  },
+  {
+    "id": "ligustrum-vulgare",
+    "latinName": "Ligustrum vulgare",
+    "names": {
+      "nl": "Wilde liguster",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Oleaceae",
+      "genus": "Ligustrum",
+      "species": "Ligustrum vulgare"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 64
+  },
+  {
+    "id": "viburnum-opulus",
+    "latinName": "Viburnum opulus",
+    "names": {
+      "nl": "Gelderse roos",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Adoxaceae",
+      "genus": "Viburnum",
+      "species": "Viburnum opulus"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/viburnum-opulus.jpg",
+    "category": "shrub",
+    "popularityScore": 63
+  },
+  {
+    "id": "cornus-sanguinea",
+    "latinName": "Cornus sanguinea",
+    "names": {
+      "nl": "Rode kornoelje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Cornaceae",
+      "genus": "Cornus",
+      "species": "Cornus sanguinea"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 63
+  },
+  {
+    "id": "euonymus-europaeus",
+    "latinName": "Euonymus europaeus",
+    "names": {
+      "nl": "Kardinaalsmuts",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Celastraceae",
+      "genus": "Euonymus",
+      "species": "Euonymus europaeus"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "2-6 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/euonymus-europaeus.jpg",
+    "category": "shrub",
+    "popularityScore": 62
+  },
+  {
+    "id": "prunus-spinosa",
+    "latinName": "Prunus spinosa",
+    "names": {
+      "nl": "Sleedoorn",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Prunus",
+      "species": "Prunus spinosa"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "2-5 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 62
+  },
+  {
+    "id": "rubus-fruticosus",
+    "latinName": "Rubus fruticosus",
+    "names": {
+      "nl": "Braam",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Rubus",
+      "species": "Rubus fruticosus"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "1-3 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/rubus-fruticosus.jpg",
+    "category": "shrub",
+    "popularityScore": 61
+  },
+  {
+    "id": "rubus-idaeus",
+    "latinName": "Rubus idaeus",
+    "names": {
+      "nl": "Framboos",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Rubus",
+      "species": "Rubus idaeus"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "1-2 m",
+      "growthHabit": "shrub",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "shrub",
+    "popularityScore": 61
+  },
+  {
+    "id": "malus-domestica",
+    "latinName": "Malus domestica",
+    "names": {
+      "nl": "Appelboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Malus",
+      "species": "Malus domestica"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "3-10 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Gecultiveerd"
+    },
+    "thumbnail": "assets/images/thumbs/malus-domestica.jpg",
+    "category": "tree",
+    "popularityScore": 60
+  },
+  {
+    "id": "pyrus-communis",
+    "latinName": "Pyrus communis",
+    "names": {
+      "nl": "Perenboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Pyrus",
+      "species": "Pyrus communis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "4-12 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/pyrus-communis.jpg",
+    "category": "tree",
+    "popularityScore": 60
+  },
+  {
+    "id": "prunus-domestica",
+    "latinName": "Prunus domestica",
+    "names": {
+      "nl": "Pruimenboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Prunus",
+      "species": "Prunus domestica"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "4-10 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/prunus-domestica.jpg",
+    "category": "tree",
+    "popularityScore": 59
+  },
+  {
+    "id": "juglans-regia",
+    "latinName": "Juglans regia",
+    "names": {
+      "nl": "Walnoot",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Juglandaceae",
+      "genus": "Juglans",
+      "species": "Juglans regia"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "15-25 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Zuid-Europa, West-Azie"
+    },
+    "thumbnail": "assets/images/thumbs/juglans-regia.jpg",
+    "category": "tree",
+    "popularityScore": 59
+  },
+  {
+    "id": "castanea-sativa",
+    "latinName": "Castanea sativa",
+    "names": {
+      "nl": "Tamme kastanje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Fagaceae",
+      "genus": "Castanea",
+      "species": "Castanea sativa"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Zomer",
+      "nativeRange": "Zuid-Europa"
+    },
+    "thumbnail": "assets/images/thumbs/castanea-sativa.jpg",
+    "category": "tree",
+    "popularityScore": 58
+  },
+  {
+    "id": "tilia-cordata",
+    "latinName": "Tilia cordata",
+    "names": {
+      "nl": "Winterlinde",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Malvaceae",
+      "genus": "Tilia",
+      "species": "Tilia cordata"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/tilia-cordata.jpg",
+    "category": "tree",
+    "popularityScore": 58
+  },
+  {
+    "id": "ulmus-minor",
+    "latinName": "Ulmus minor",
+    "names": {
+      "nl": "Veldiep",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Ulmaceae",
+      "genus": "Ulmus",
+      "species": "Ulmus minor"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-30 m",
+      "growthHabit": "tree",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/ulmus-minor.jpg",
+    "category": "tree",
+    "popularityScore": 57
+  },
+  {
+    "id": "fraxinus-excelsior",
+    "latinName": "Fraxinus excelsior",
+    "names": {
+      "nl": "Gewone es",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Oleaceae",
+      "genus": "Fraxinus",
+      "species": "Fraxinus excelsior"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "20-40 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/fraxinus-excelsior.jpg",
+    "category": "tree",
+    "popularityScore": 57
+  },
+  {
+    "id": "populus-tremula",
+    "latinName": "Populus tremula",
+    "names": {
+      "nl": "Ratelpopulier",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Salicaceae",
+      "genus": "Populus",
+      "species": "Populus tremula"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Uitstekend",
+      "height": "15-25 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente",
+      "nativeRange": "Europa, Azie"
+    },
+    "thumbnail": "assets/images/thumbs/populus-tremula.jpg",
+    "category": "tree",
+    "popularityScore": 56
+  },
+  {
+    "id": "sorbus-aucuparia",
+    "latinName": "Sorbus aucuparia",
+    "names": {
+      "nl": "Lijsterbes",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Rosaceae",
+      "genus": "Sorbus",
+      "species": "Sorbus aucuparia"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "8-15 m",
+      "growthHabit": "tree",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "tree",
+    "popularityScore": 56
+  },
+  {
+    "id": "lilium-candidum",
+    "latinName": "Lilium candidum",
+    "names": {
+      "nl": "Witte lelie",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Liliaceae",
+      "genus": "Lilium",
+      "species": "Lilium candidum"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Matig",
+      "height": "60-120 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Balkan, Midden-Oosten"
+    },
+    "thumbnail": "assets/images/thumbs/lilium-candidum.jpg",
+    "category": "flower",
+    "popularityScore": 55
+  },
+  {
+    "id": "iris-pseudacorus",
+    "latinName": "Iris pseudacorus",
+    "names": {
+      "nl": "Gele lis",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Iridaceae",
+      "genus": "Iris",
+      "species": "Iris pseudacorus"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Hoog",
+      "hardiness": "Goed",
+      "height": "60-120 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/iris-pseudacorus.jpg",
+    "category": "flower",
+    "popularityScore": 55
+  },
+  {
+    "id": "anemone-nemorosa",
+    "latinName": "Anemone nemorosa",
+    "names": {
+      "nl": "Bosanemoon",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Ranunculaceae",
+      "genus": "Anemone",
+      "species": "Anemone nemorosa"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "10-25 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Vroege lente",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 54
+  },
+  {
+    "id": "leucanthemum-vulgare",
+    "latinName": "Leucanthemum vulgare",
+    "names": {
+      "nl": "Margriet",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Asteraceae",
+      "genus": "Leucanthemum",
+      "species": "Leucanthemum vulgare"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-80 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/leucanthemum-vulgare.jpg",
+    "category": "flower",
+    "popularityScore": 54
+  },
+  {
+    "id": "knautia-arvensis",
+    "latinName": "Knautia arvensis",
+    "names": {
+      "nl": "Beemdkroon",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Caprifoliaceae",
+      "genus": "Knautia",
+      "species": "Knautia arvensis"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "30-100 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/knautia-arvensis.jpg",
+    "category": "flower",
+    "popularityScore": 53
+  },
+  {
+    "id": "silene-dioica",
+    "latinName": "Silene dioica",
+    "names": {
+      "nl": "Dagkoekoeksbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Caryophyllaceae",
+      "genus": "Silene",
+      "species": "Silene dioica"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-90 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/silene-dioica.jpg",
+    "category": "flower",
+    "popularityScore": 53
+  },
+  {
+    "id": "campanula-rotundifolia",
+    "latinName": "Campanula rotundifolia",
+    "names": {
+      "nl": "Grasklokje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Campanulaceae",
+      "genus": "Campanula",
+      "species": "Campanula rotundifolia"
+    },
+    "traits": {
+      "sun": "Volle zon",
+      "water": "Laag",
+      "hardiness": "Goed",
+      "height": "15-50 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 52
+  },
+  {
+    "id": "aquilegia-vulgaris",
+    "latinName": "Aquilegia vulgaris",
+    "names": {
+      "nl": "Akelei",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Ranunculaceae",
+      "genus": "Aquilegia",
+      "species": "Aquilegia vulgaris"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "40-90 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/aquilegia-vulgaris.jpg",
+    "category": "flower",
+    "popularityScore": 52
+  },
+  {
+    "id": "helleborus-foetidus",
+    "latinName": "Helleborus foetidus",
+    "names": {
+      "nl": "Stinkend nieskruid",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Ranunculaceae",
+      "genus": "Helleborus",
+      "species": "Helleborus foetidus"
+    },
+    "traits": {
+      "sun": "Halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "30-80 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Winter-lente",
+      "nativeRange": "West-Europa"
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 51
+  },
+  {
+    "id": "myosotis-arvensis",
+    "latinName": "Myosotis arvensis",
+    "names": {
+      "nl": "Akkervergeet-mij-nietje",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "Boraginaceae",
+      "genus": "Myosotis",
+      "species": "Myosotis arvensis"
+    },
+    "traits": {
+      "sun": "Zon-halfschaduw",
+      "water": "Gemiddeld",
+      "hardiness": "Goed",
+      "height": "10-40 cm",
+      "growthHabit": "flower",
+      "bloomTime": "Lente-zomer",
+      "nativeRange": "Europa"
+    },
+    "thumbnail": "assets/images/thumbs/myosotis-arvensis.jpg",
+    "category": "flower",
+    "popularityScore": 51
   }
 ]

@@ -12,6 +12,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "fetch-data": "node scripts/fetch-plants.mjs",
+    "fetch-thumbnails": "node scripts/fetch-thumbnails.mjs",
     "generate-sample": "node scripts/generate-sample-data.mjs"
   },
   "dependencies": {

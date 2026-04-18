@@ -34,6 +34,9 @@ jobs:
       - name: Generate sample data
         run: node scripts/generate-sample-data.mjs
 
+      - name: Fetch offline thumbnails
+        run: npm run fetch-thumbnails
+
       - name: Build
         run: npm run build
 

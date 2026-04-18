@@ -4,11 +4,14 @@
     "terms": [
       "tulipa gesneriana",
       "tulp",
-      "tulipa"
+      "liliaceae",
+      "tulipa",
+      "flower",
+      "centraal-azie, europa"
     ],
     "preview": {
       "latin": "Tulipa gesneriana",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/tulipa-gesneriana.jpg"
     }
   },
   {
@@ -16,11 +19,14 @@
     "terms": [
       "narcissus pseudonarcissus",
       "narcis",
-      "narcissus"
+      "amaryllidaceae",
+      "narcissus",
+      "flower",
+      "west-europa"
     ],
     "preview": {
       "latin": "Narcissus pseudonarcissus",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/narcissus-pseudonarcissus.jpg"
     }
   },
   {
@@ -28,11 +34,14 @@
     "terms": [
       "hyacinthus orientalis",
       "hyacint",
-      "hyacinthus"
+      "asparagaceae",
+      "hyacinthus",
+      "flower",
+      "oost-middellandse zee"
     ],
     "preview": {
       "latin": "Hyacinthus orientalis",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/hyacinthus-orientalis.jpg"
     }
   },
   {
@@ -40,11 +49,14 @@
     "terms": [
       "crocus vernus",
       "krokus",
-      "crocus"
+      "iridaceae",
+      "crocus",
+      "flower",
+      "europa"
     ],
     "preview": {
       "latin": "Crocus vernus",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/crocus-vernus.jpg"
     }
   },
   {
@@ -52,11 +64,14 @@
     "terms": [
       "convallaria majalis",
       "lelietje-van-dalen",
-      "convallaria"
+      "asparagaceae",
+      "convallaria",
+      "flower",
+      "europa, azie"
     ],
     "preview": {
       "latin": "Convallaria majalis",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/convallaria-majalis.jpg"
     }
   },
   {
@@ -64,11 +79,14 @@
     "terms": [
       "quercus robur",
       "zomereik",
-      "quercus"
+      "fagaceae",
+      "quercus",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Quercus robur",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/quercus-robur.jpg"
     }
   },
   {
@@ -76,11 +94,14 @@
     "terms": [
       "fagus sylvatica",
       "beuk",
-      "fagus"
+      "fagaceae",
+      "fagus",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Fagus sylvatica",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/fagus-sylvatica.jpg"
     }
   },
   {
@@ -88,11 +109,14 @@
     "terms": [
       "urtica dioica",
       "brandnetel",
-      "urtica"
+      "urticaceae",
+      "urtica",
+      "herb",
+      "europa, azie"
     ],
     "preview": {
       "latin": "Urtica dioica",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/urtica-dioica.jpg"
     }
   },
   {
@@ -100,23 +124,29 @@
     "terms": [
       "taraxacum officinale",
       "paardenbloem",
-      "taraxacum"
+      "asteraceae",
+      "taraxacum",
+      "herb",
+      "europa"
     ],
     "preview": {
       "latin": "Taraxacum officinale",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/taraxacum-officinale.jpg"
     }
   },
   {
     "id": "plantago-major",
     "terms": [
       "plantago major",
-      "wegerich",
-      "plantago"
+      "grote weegbree",
+      "plantaginaceae",
+      "plantago",
+      "herb",
+      "europa, azie"
     ],
     "preview": {
       "latin": "Plantago major",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/plantago-major.jpg"
     }
   },
   {
@@ -124,11 +154,14 @@
     "terms": [
       "helianthus annuus",
       "zonnebloem",
-      "helianthus"
+      "asteraceae",
+      "helianthus",
+      "flower",
+      "noord-amerika"
     ],
     "preview": {
       "latin": "Helianthus annuus",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/helianthus-annuus.jpg"
     }
   },
   {
@@ -136,35 +169,44 @@
     "terms": [
       "trifolium repens",
       "witte klaver",
-      "trifolium"
+      "fabaceae",
+      "trifolium",
+      "herb",
+      "europa"
     ],
     "preview": {
       "latin": "Trifolium repens",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/trifolium-repens.jpg"
     }
   },
   {
     "id": "bellis-perennis",
     "terms": [
       "bellis perennis",
-      "margriet",
-      "bellis"
+      "madeliefje",
+      "asteraceae",
+      "bellis",
+      "flower",
+      "europa"
     ],
     "preview": {
       "latin": "Bellis perennis",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/bellis-perennis.jpg"
     }
   },
   {
     "id": "rosa-canina",
     "terms": [
       "rosa canina",
-      "wilde roos",
-      "rosa"
+      "hondsroos",
+      "rosaceae",
+      "rosa",
+      "shrub",
+      "europa, west-azie"
     ],
     "preview": {
       "latin": "Rosa canina",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/rosa-canina.jpg"
     }
   },
   {
@@ -172,23 +214,29 @@
     "terms": [
       "acer platanoides",
       "noorse esdoorn",
-      "acer"
+      "sapindaceae",
+      "acer",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Acer platanoides",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/acer-platanoides.jpg"
     }
   },
   {
     "id": "betula-pendula",
     "terms": [
       "betula pendula",
-      "zilverberk",
-      "betula"
+      "ruwe berk",
+      "betulaceae",
+      "betula",
+      "tree",
+      "europa, azie"
     ],
     "preview": {
       "latin": "Betula pendula",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/betula-pendula.jpg"
     }
   },
   {
@@ -196,23 +244,29 @@
     "terms": [
       "salix alba",
       "witte wilg",
-      "salix"
+      "salicaceae",
+      "salix",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Salix alba",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/salix-alba.jpg"
     }
   },
   {
     "id": "prunus-avium",
     "terms": [
       "prunus avium",
-      "wilde kersenboom",
-      "prunus"
+      "zoete kers",
+      "rosaceae",
+      "prunus",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Prunus avium",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/prunus-avium.jpg"
     }
   },
   {
@@ -220,11 +274,14 @@
     "terms": [
       "sambucus nigra",
       "vlier",
-      "sambucus"
+      "adoxaceae",
+      "sambucus",
+      "shrub",
+      "europa"
     ],
     "preview": {
       "latin": "Sambucus nigra",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/sambucus-nigra.jpg"
     }
   },
   {
@@ -232,11 +289,14 @@
     "terms": [
       "crataegus monogyna",
       "eenstijlige meidoorn",
-      "crataegus"
+      "rosaceae",
+      "crataegus",
+      "shrub",
+      "europa"
     ],
     "preview": {
       "latin": "Crataegus monogyna",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/crataegus-monogyna.jpg"
     }
   },
   {
@@ -244,35 +304,44 @@
     "terms": [
       "alnus glutinosa",
       "zwarte els",
-      "alnus"
+      "betulaceae",
+      "alnus",
+      "tree",
+      "europa"
     ],
     "preview": {
       "latin": "Alnus glutinosa",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/alnus-glutinosa.jpg"
     }
   },
   {
     "id": "frangula-alnus",
     "terms": [
       "frangula alnus",
-      "vuilboom",
-      "frangula"
+      "sporkehout",
+      "rhamnaceae",
+      "frangula",
+      "shrub",
+      "europa"
     ],
     "preview": {
       "latin": "Frangula alnus",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/frangula-alnus.jpg"
     }
   },
   {
     "id": "rumex-obtusifolius",
     "terms": [
       "rumex obtusifolius",
-      "ronde zuuring",
-      "rumex"
+      "ridderzuring",
+      "polygonaceae",
+      "rumex",
+      "herb",
+      "europa"
     ],
     "preview": {
       "latin": "Rumex obtusifolius",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/rumex-obtusifolius.jpg"
     }
   },
   {
@@ -280,23 +349,1154 @@
     "terms": [
       "centaurea cyanus",
       "korenbloem",
-      "centaurea"
+      "asteraceae",
+      "centaurea",
+      "flower",
+      "europa"
     ],
     "preview": {
       "latin": "Centaurea cyanus",
-      "thumbnail": null
+      "thumbnail": "assets/images/thumbs/centaurea-cyanus.jpg"
     }
   },
   {
     "id": "papaver-rhoeas",
     "terms": [
       "papaver rhoeas",
-      "grote klaproos",
-      "papaver"
+      "klaproos",
+      "papaveraceae",
+      "papaver",
+      "flower",
+      "europa"
     ],
     "preview": {
       "latin": "Papaver rhoeas",
+      "thumbnail": "assets/images/thumbs/papaver-rhoeas.jpg"
+    }
+  },
+  {
+    "id": "achillea-millefolium",
+    "terms": [
+      "achillea millefolium",
+      "duizendblad",
+      "asteraceae",
+      "achillea",
+      "herb",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Achillea millefolium",
+      "thumbnail": "assets/images/thumbs/achillea-millefolium.jpg"
+    }
+  },
+  {
+    "id": "ranunculus-acris",
+    "terms": [
+      "ranunculus acris",
+      "scherpe boterbloem",
+      "ranunculaceae",
+      "ranunculus",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Ranunculus acris",
+      "thumbnail": "assets/images/thumbs/ranunculus-acris.jpg"
+    }
+  },
+  {
+    "id": "primula-vulgaris",
+    "terms": [
+      "primula vulgaris",
+      "sleutelbloem",
+      "primulaceae",
+      "primula",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Primula vulgaris",
+      "thumbnail": "assets/images/thumbs/primula-vulgaris.jpg"
+    }
+  },
+  {
+    "id": "viola-odorata",
+    "terms": [
+      "viola odorata",
+      "maarts viooltje",
+      "violaceae",
+      "viola",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Viola odorata",
+      "thumbnail": "assets/images/thumbs/viola-odorata.jpg"
+    }
+  },
+  {
+    "id": "lamium-album",
+    "terms": [
+      "lamium album",
+      "witte dovenetel",
+      "lamiaceae",
+      "lamium",
+      "herb",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Lamium album",
+      "thumbnail": "assets/images/thumbs/lamium-album.jpg"
+    }
+  },
+  {
+    "id": "digitalis-purpurea",
+    "terms": [
+      "digitalis purpurea",
+      "vingerhoedskruid",
+      "plantaginaceae",
+      "digitalis",
+      "flower",
+      "west-europa"
+    ],
+    "preview": {
+      "latin": "Digitalis purpurea",
+      "thumbnail": "assets/images/thumbs/digitalis-purpurea.jpg"
+    }
+  },
+  {
+    "id": "hypericum-perforatum",
+    "terms": [
+      "hypericum perforatum",
+      "sint-janskruid",
+      "hypericaceae",
+      "hypericum",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Hypericum perforatum",
       "thumbnail": null
+    }
+  },
+  {
+    "id": "matricaria-chamomilla",
+    "terms": [
+      "matricaria chamomilla",
+      "echte kamille",
+      "asteraceae",
+      "matricaria",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Matricaria chamomilla",
+      "thumbnail": "assets/images/thumbs/matricaria-chamomilla.jpg"
+    }
+  },
+  {
+    "id": "calendula-officinalis",
+    "terms": [
+      "calendula officinalis",
+      "goudsbloem",
+      "asteraceae",
+      "calendula",
+      "flower",
+      "middellandse zee"
+    ],
+    "preview": {
+      "latin": "Calendula officinalis",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "lavandula-angustifolia",
+    "terms": [
+      "lavandula angustifolia",
+      "lavendel",
+      "lamiaceae",
+      "lavandula",
+      "shrub",
+      "zuid-europa"
+    ],
+    "preview": {
+      "latin": "Lavandula angustifolia",
+      "thumbnail": "assets/images/thumbs/lavandula-angustifolia.jpg"
+    }
+  },
+  {
+    "id": "salvia-officinalis",
+    "terms": [
+      "salvia officinalis",
+      "salie",
+      "lamiaceae",
+      "salvia",
+      "shrub",
+      "middellandse zee"
+    ],
+    "preview": {
+      "latin": "Salvia officinalis",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "thymus-vulgaris",
+    "terms": [
+      "thymus vulgaris",
+      "tijm",
+      "lamiaceae",
+      "thymus",
+      "shrub",
+      "zuid-europa"
+    ],
+    "preview": {
+      "latin": "Thymus vulgaris",
+      "thumbnail": "assets/images/thumbs/thymus-vulgaris.jpg"
+    }
+  },
+  {
+    "id": "origanum-vulgare",
+    "terms": [
+      "origanum vulgare",
+      "oregano",
+      "lamiaceae",
+      "origanum",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Origanum vulgare",
+      "thumbnail": "assets/images/thumbs/origanum-vulgare.jpg"
+    }
+  },
+  {
+    "id": "mentha-aquatica",
+    "terms": [
+      "mentha aquatica",
+      "watermunt",
+      "lamiaceae",
+      "mentha",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Mentha aquatica",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "melissa-officinalis",
+    "terms": [
+      "melissa officinalis",
+      "citroenmelisse",
+      "lamiaceae",
+      "melissa",
+      "herb",
+      "zuid-europa"
+    ],
+    "preview": {
+      "latin": "Melissa officinalis",
+      "thumbnail": "assets/images/thumbs/melissa-officinalis.jpg"
+    }
+  },
+  {
+    "id": "rosmarinus-officinalis",
+    "terms": [
+      "rosmarinus officinalis",
+      "rozemarijn",
+      "lamiaceae",
+      "rosmarinus",
+      "shrub",
+      "middellandse zee"
+    ],
+    "preview": {
+      "latin": "Rosmarinus officinalis",
+      "thumbnail": "assets/images/thumbs/rosmarinus-officinalis.jpg"
+    }
+  },
+  {
+    "id": "artemisia-absinthium",
+    "terms": [
+      "artemisia absinthium",
+      "absintalsem",
+      "asteraceae",
+      "artemisia",
+      "herb",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Artemisia absinthium",
+      "thumbnail": "assets/images/thumbs/artemisia-absinthium.jpg"
+    }
+  },
+  {
+    "id": "echinacea-purpurea",
+    "terms": [
+      "echinacea purpurea",
+      "rode zonnehoed",
+      "asteraceae",
+      "echinacea",
+      "flower",
+      "noord-amerika"
+    ],
+    "preview": {
+      "latin": "Echinacea purpurea",
+      "thumbnail": "assets/images/thumbs/echinacea-purpurea.jpg"
+    }
+  },
+  {
+    "id": "valeriana-officinalis",
+    "terms": [
+      "valeriana officinalis",
+      "valeriaan",
+      "caprifoliaceae",
+      "valeriana",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Valeriana officinalis",
+      "thumbnail": "assets/images/thumbs/valeriana-officinalis.jpg"
+    }
+  },
+  {
+    "id": "verbena-officinalis",
+    "terms": [
+      "verbena officinalis",
+      "ijzerhard",
+      "verbenaceae",
+      "verbena",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Verbena officinalis",
+      "thumbnail": "assets/images/thumbs/verbena-officinalis.jpg"
+    }
+  },
+  {
+    "id": "malva-sylvestris",
+    "terms": [
+      "malva sylvestris",
+      "groot kaasjeskruid",
+      "malvaceae",
+      "malva",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Malva sylvestris",
+      "thumbnail": "assets/images/thumbs/malva-sylvestris.jpg"
+    }
+  },
+  {
+    "id": "cichorium-intybus",
+    "terms": [
+      "cichorium intybus",
+      "wilde cichorei",
+      "asteraceae",
+      "cichorium",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Cichorium intybus",
+      "thumbnail": "assets/images/thumbs/cichorium-intybus.jpg"
+    }
+  },
+  {
+    "id": "chelidonium-majus",
+    "terms": [
+      "chelidonium majus",
+      "stinkende gouwe",
+      "papaveraceae",
+      "chelidonium",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Chelidonium majus",
+      "thumbnail": "assets/images/thumbs/chelidonium-majus.jpg"
+    }
+  },
+  {
+    "id": "geranium-robertianum",
+    "terms": [
+      "geranium robertianum",
+      "robertskruid",
+      "geraniaceae",
+      "geranium",
+      "herb",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Geranium robertianum",
+      "thumbnail": "assets/images/thumbs/geranium-robertianum.jpg"
+    }
+  },
+  {
+    "id": "poa-pratensis",
+    "terms": [
+      "poa pratensis",
+      "veldbeemdgras",
+      "poaceae",
+      "poa",
+      "grass",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Poa pratensis",
+      "thumbnail": "assets/images/thumbs/poa-pratensis.jpg"
+    }
+  },
+  {
+    "id": "dactylis-glomerata",
+    "terms": [
+      "dactylis glomerata",
+      "kropaar",
+      "poaceae",
+      "dactylis",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Dactylis glomerata",
+      "thumbnail": "assets/images/thumbs/dactylis-glomerata.jpg"
+    }
+  },
+  {
+    "id": "lolium-perenne",
+    "terms": [
+      "lolium perenne",
+      "engels raaigras",
+      "poaceae",
+      "lolium",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Lolium perenne",
+      "thumbnail": "assets/images/thumbs/lolium-perenne.jpg"
+    }
+  },
+  {
+    "id": "festuca-rubra",
+    "terms": [
+      "festuca rubra",
+      "rood zwenkgras",
+      "poaceae",
+      "festuca",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Festuca rubra",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "phleum-pratense",
+    "terms": [
+      "phleum pratense",
+      "timotheegras",
+      "poaceae",
+      "phleum",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Phleum pratense",
+      "thumbnail": "assets/images/thumbs/phleum-pratense.jpg"
+    }
+  },
+  {
+    "id": "deschampsia-cespitosa",
+    "terms": [
+      "deschampsia cespitosa",
+      "ruwe smele",
+      "poaceae",
+      "deschampsia",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Deschampsia cespitosa",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "carex-acutiformis",
+    "terms": [
+      "carex acutiformis",
+      "moeraszegge",
+      "cyperaceae",
+      "carex",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Carex acutiformis",
+      "thumbnail": "assets/images/thumbs/carex-acutiformis.jpg"
+    }
+  },
+  {
+    "id": "juncus-effusus",
+    "terms": [
+      "juncus effusus",
+      "pitrus",
+      "juncaceae",
+      "juncus",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Juncus effusus",
+      "thumbnail": "assets/images/thumbs/juncus-effusus.jpg"
+    }
+  },
+  {
+    "id": "phragmites-australis",
+    "terms": [
+      "phragmites australis",
+      "riet",
+      "poaceae",
+      "phragmites",
+      "grass",
+      "wereldwijd"
+    ],
+    "preview": {
+      "latin": "Phragmites australis",
+      "thumbnail": "assets/images/thumbs/phragmites-australis.jpg"
+    }
+  },
+  {
+    "id": "molinia-caerulea",
+    "terms": [
+      "molinia caerulea",
+      "pijpenstrootje",
+      "poaceae",
+      "molinia",
+      "grass",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Molinia caerulea",
+      "thumbnail": "assets/images/thumbs/molinia-caerulea.jpg"
+    }
+  },
+  {
+    "id": "dryopteris-filix-mas",
+    "terms": [
+      "dryopteris filix-mas",
+      "mannetjesvaren",
+      "dryopteridaceae",
+      "dryopteris",
+      "fern",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Dryopteris filix-mas",
+      "thumbnail": "assets/images/thumbs/dryopteris-filix-mas.jpg"
+    }
+  },
+  {
+    "id": "pteridium-aquilinum",
+    "terms": [
+      "pteridium aquilinum",
+      "adelaarsvaren",
+      "dennstaedtiaceae",
+      "pteridium",
+      "fern",
+      "wereldwijd"
+    ],
+    "preview": {
+      "latin": "Pteridium aquilinum",
+      "thumbnail": "assets/images/thumbs/pteridium-aquilinum.jpg"
+    }
+  },
+  {
+    "id": "athyrium-filix-femina",
+    "terms": [
+      "athyrium filix-femina",
+      "wijfjesvaren",
+      "athyriaceae",
+      "athyrium",
+      "fern",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Athyrium filix-femina",
+      "thumbnail": "assets/images/thumbs/athyrium-filix-femina.jpg"
+    }
+  },
+  {
+    "id": "polypodium-vulgare",
+    "terms": [
+      "polypodium vulgare",
+      "eikvaren",
+      "polypodiaceae",
+      "polypodium",
+      "fern",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Polypodium vulgare",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "asplenium-scolopendrium",
+    "terms": [
+      "asplenium scolopendrium",
+      "tongvaren",
+      "aspleniaceae",
+      "asplenium",
+      "fern",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Asplenium scolopendrium",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "pinus-sylvestris",
+    "terms": [
+      "pinus sylvestris",
+      "grove den",
+      "pinaceae",
+      "pinus",
+      "tree",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Pinus sylvestris",
+      "thumbnail": "assets/images/thumbs/pinus-sylvestris.jpg"
+    }
+  },
+  {
+    "id": "picea-abies",
+    "terms": [
+      "picea abies",
+      "fijnspar",
+      "pinaceae",
+      "picea",
+      "tree",
+      "noord-europa"
+    ],
+    "preview": {
+      "latin": "Picea abies",
+      "thumbnail": "assets/images/thumbs/picea-abies.jpg"
+    }
+  },
+  {
+    "id": "abies-alba",
+    "terms": [
+      "abies alba",
+      "zilverspar",
+      "pinaceae",
+      "abies",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Abies alba",
+      "thumbnail": "assets/images/thumbs/abies-alba.jpg"
+    }
+  },
+  {
+    "id": "larix-decidua",
+    "terms": [
+      "larix decidua",
+      "europese lariks",
+      "pinaceae",
+      "larix",
+      "tree",
+      "centraal-europa"
+    ],
+    "preview": {
+      "latin": "Larix decidua",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "taxus-baccata",
+    "terms": [
+      "taxus baccata",
+      "venijnboom",
+      "taxaceae",
+      "taxus",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Taxus baccata",
+      "thumbnail": "assets/images/thumbs/taxus-baccata.jpg"
+    }
+  },
+  {
+    "id": "juniperus-communis",
+    "terms": [
+      "juniperus communis",
+      "jeneverbes",
+      "cupressaceae",
+      "juniperus",
+      "shrub",
+      "noordelijk halfrond"
+    ],
+    "preview": {
+      "latin": "Juniperus communis",
+      "thumbnail": "assets/images/thumbs/juniperus-communis.jpg"
+    }
+  },
+  {
+    "id": "corylus-avellana",
+    "terms": [
+      "corylus avellana",
+      "hazelaar",
+      "betulaceae",
+      "corylus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Corylus avellana",
+      "thumbnail": "assets/images/thumbs/corylus-avellana.jpg"
+    }
+  },
+  {
+    "id": "ilex-aquifolium",
+    "terms": [
+      "ilex aquifolium",
+      "hulst",
+      "aquifoliaceae",
+      "ilex",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Ilex aquifolium",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "buxus-sempervirens",
+    "terms": [
+      "buxus sempervirens",
+      "buxus",
+      "buxaceae",
+      "buxus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Buxus sempervirens",
+      "thumbnail": "assets/images/thumbs/buxus-sempervirens.jpg"
+    }
+  },
+  {
+    "id": "ligustrum-vulgare",
+    "terms": [
+      "ligustrum vulgare",
+      "wilde liguster",
+      "oleaceae",
+      "ligustrum",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Ligustrum vulgare",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "viburnum-opulus",
+    "terms": [
+      "viburnum opulus",
+      "gelderse roos",
+      "adoxaceae",
+      "viburnum",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Viburnum opulus",
+      "thumbnail": "assets/images/thumbs/viburnum-opulus.jpg"
+    }
+  },
+  {
+    "id": "cornus-sanguinea",
+    "terms": [
+      "cornus sanguinea",
+      "rode kornoelje",
+      "cornaceae",
+      "cornus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Cornus sanguinea",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "euonymus-europaeus",
+    "terms": [
+      "euonymus europaeus",
+      "kardinaalsmuts",
+      "celastraceae",
+      "euonymus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Euonymus europaeus",
+      "thumbnail": "assets/images/thumbs/euonymus-europaeus.jpg"
+    }
+  },
+  {
+    "id": "prunus-spinosa",
+    "terms": [
+      "prunus spinosa",
+      "sleedoorn",
+      "rosaceae",
+      "prunus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Prunus spinosa",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "rubus-fruticosus",
+    "terms": [
+      "rubus fruticosus",
+      "braam",
+      "rosaceae",
+      "rubus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Rubus fruticosus",
+      "thumbnail": "assets/images/thumbs/rubus-fruticosus.jpg"
+    }
+  },
+  {
+    "id": "rubus-idaeus",
+    "terms": [
+      "rubus idaeus",
+      "framboos",
+      "rosaceae",
+      "rubus",
+      "shrub",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Rubus idaeus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "malus-domestica",
+    "terms": [
+      "malus domestica",
+      "appelboom",
+      "rosaceae",
+      "malus",
+      "tree",
+      "gecultiveerd"
+    ],
+    "preview": {
+      "latin": "Malus domestica",
+      "thumbnail": "assets/images/thumbs/malus-domestica.jpg"
+    }
+  },
+  {
+    "id": "pyrus-communis",
+    "terms": [
+      "pyrus communis",
+      "perenboom",
+      "rosaceae",
+      "pyrus",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Pyrus communis",
+      "thumbnail": "assets/images/thumbs/pyrus-communis.jpg"
+    }
+  },
+  {
+    "id": "prunus-domestica",
+    "terms": [
+      "prunus domestica",
+      "pruimenboom",
+      "rosaceae",
+      "prunus",
+      "tree",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Prunus domestica",
+      "thumbnail": "assets/images/thumbs/prunus-domestica.jpg"
+    }
+  },
+  {
+    "id": "juglans-regia",
+    "terms": [
+      "juglans regia",
+      "walnoot",
+      "juglandaceae",
+      "juglans",
+      "tree",
+      "zuid-europa, west-azie"
+    ],
+    "preview": {
+      "latin": "Juglans regia",
+      "thumbnail": "assets/images/thumbs/juglans-regia.jpg"
+    }
+  },
+  {
+    "id": "castanea-sativa",
+    "terms": [
+      "castanea sativa",
+      "tamme kastanje",
+      "fagaceae",
+      "castanea",
+      "tree",
+      "zuid-europa"
+    ],
+    "preview": {
+      "latin": "Castanea sativa",
+      "thumbnail": "assets/images/thumbs/castanea-sativa.jpg"
+    }
+  },
+  {
+    "id": "tilia-cordata",
+    "terms": [
+      "tilia cordata",
+      "winterlinde",
+      "malvaceae",
+      "tilia",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Tilia cordata",
+      "thumbnail": "assets/images/thumbs/tilia-cordata.jpg"
+    }
+  },
+  {
+    "id": "ulmus-minor",
+    "terms": [
+      "ulmus minor",
+      "veldiep",
+      "ulmaceae",
+      "ulmus",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Ulmus minor",
+      "thumbnail": "assets/images/thumbs/ulmus-minor.jpg"
+    }
+  },
+  {
+    "id": "fraxinus-excelsior",
+    "terms": [
+      "fraxinus excelsior",
+      "gewone es",
+      "oleaceae",
+      "fraxinus",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Fraxinus excelsior",
+      "thumbnail": "assets/images/thumbs/fraxinus-excelsior.jpg"
+    }
+  },
+  {
+    "id": "populus-tremula",
+    "terms": [
+      "populus tremula",
+      "ratelpopulier",
+      "salicaceae",
+      "populus",
+      "tree",
+      "europa, azie"
+    ],
+    "preview": {
+      "latin": "Populus tremula",
+      "thumbnail": "assets/images/thumbs/populus-tremula.jpg"
+    }
+  },
+  {
+    "id": "sorbus-aucuparia",
+    "terms": [
+      "sorbus aucuparia",
+      "lijsterbes",
+      "rosaceae",
+      "sorbus",
+      "tree",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Sorbus aucuparia",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "lilium-candidum",
+    "terms": [
+      "lilium candidum",
+      "witte lelie",
+      "liliaceae",
+      "lilium",
+      "flower",
+      "balkan, midden-oosten"
+    ],
+    "preview": {
+      "latin": "Lilium candidum",
+      "thumbnail": "assets/images/thumbs/lilium-candidum.jpg"
+    }
+  },
+  {
+    "id": "iris-pseudacorus",
+    "terms": [
+      "iris pseudacorus",
+      "gele lis",
+      "iridaceae",
+      "iris",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Iris pseudacorus",
+      "thumbnail": "assets/images/thumbs/iris-pseudacorus.jpg"
+    }
+  },
+  {
+    "id": "anemone-nemorosa",
+    "terms": [
+      "anemone nemorosa",
+      "bosanemoon",
+      "ranunculaceae",
+      "anemone",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Anemone nemorosa",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "leucanthemum-vulgare",
+    "terms": [
+      "leucanthemum vulgare",
+      "margriet",
+      "asteraceae",
+      "leucanthemum",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Leucanthemum vulgare",
+      "thumbnail": "assets/images/thumbs/leucanthemum-vulgare.jpg"
+    }
+  },
+  {
+    "id": "knautia-arvensis",
+    "terms": [
+      "knautia arvensis",
+      "beemdkroon",
+      "caprifoliaceae",
+      "knautia",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Knautia arvensis",
+      "thumbnail": "assets/images/thumbs/knautia-arvensis.jpg"
+    }
+  },
+  {
+    "id": "silene-dioica",
+    "terms": [
+      "silene dioica",
+      "dagkoekoeksbloem",
+      "caryophyllaceae",
+      "silene",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Silene dioica",
+      "thumbnail": "assets/images/thumbs/silene-dioica.jpg"
+    }
+  },
+  {
+    "id": "campanula-rotundifolia",
+    "terms": [
+      "campanula rotundifolia",
+      "grasklokje",
+      "campanulaceae",
+      "campanula",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Campanula rotundifolia",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "aquilegia-vulgaris",
+    "terms": [
+      "aquilegia vulgaris",
+      "akelei",
+      "ranunculaceae",
+      "aquilegia",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Aquilegia vulgaris",
+      "thumbnail": "assets/images/thumbs/aquilegia-vulgaris.jpg"
+    }
+  },
+  {
+    "id": "helleborus-foetidus",
+    "terms": [
+      "helleborus foetidus",
+      "stinkend nieskruid",
+      "ranunculaceae",
+      "helleborus",
+      "flower",
+      "west-europa"
+    ],
+    "preview": {
+      "latin": "Helleborus foetidus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "myosotis-arvensis",
+    "terms": [
+      "myosotis arvensis",
+      "akkervergeet-mij-nietje",
+      "boraginaceae",
+      "myosotis",
+      "flower",
+      "europa"
+    ],
+    "preview": {
+      "latin": "Myosotis arvensis",
+      "thumbnail": "assets/images/thumbs/myosotis-arvensis.jpg"
     }
   }
 ]
