@@ -7,7 +7,9 @@ import PlantCard from '../components/study/PlantCard';
 
 import EmptyState from '../components/common/EmptyState';
 import LoadingSpinner from '../components/common/LoadingSpinner';
+import ExternalSearch from '../components/study/ExternalSearch';
 import { PlantDataService } from '../services/PlantDataService';
+import { LearningPlantDataService } from '../services/LearningPlantDataService';
 import type { Plant, PlantCategory } from '../types';
 
 const PAGE_SIZE = 20;
@@ -32,13 +34,16 @@ const StudyPage: React.FC = () => {
   const [bgLoaded, setBgLoaded] = useState(0);
   const [bgLoading, setBgLoading] = useState(false);
   const [metrics, setMetrics] = useState(PlantDataService.getIngestionMetrics());
+  const [externalSearchPageId, setExternalSearchPageId] = useState<number | null>(null);
 
   useEffect(() => {
     let mounted = true;
 
-    PlantDataService.initialize().then(() => {
+    PlantDataService.initialize().then(async () => {
       if (!mounted) return;
-      const plants = PlantDataService.getBundledPlants();
+      const bundledPlants = PlantDataService.getBundledPlants();
+      const plants = await LearningPlantDataService.composePlantsWithCachedDetails(bundledPlants);
+      if (!mounted) return;
       console.log('StudyPage: loaded', plants.length, 'plants, first:', plants[0]?.latinName);
       setAllPlants(plants);
       setInitialized(true);
@@ -48,7 +53,11 @@ const StudyPage: React.FC = () => {
       PlantDataService.startBackgroundExternalLoad((count) => {
         if (!mounted) return;
         setBgLoaded(count);
-        setAllPlants(PlantDataService.getBundledPlants());
+        LearningPlantDataService.composePlantsWithCachedDetails(PlantDataService.getBundledPlants())
+          .then((nextPlants) => {
+            if (!mounted) return;
+            setAllPlants(nextPlants);
+          });
         setBgLoading(PlantDataService.isBackgroundLoading());
         setMetrics(PlantDataService.getIngestionMetrics());
       })
@@ -90,14 +99,20 @@ const StudyPage: React.FC = () => {
   };
 
   const handleRefresh = (event: CustomEvent) => {
-    PlantDataService.initialize().then(() => {
-      setAllPlants(PlantDataService.getBundledPlants());
+    PlantDataService.initialize().then(async () => {
+      const plants = await LearningPlantDataService.composePlantsWithCachedDetails(PlantDataService.getBundledPlants());
+      setAllPlants(plants);
       (event.target as HTMLIonRefresherElement).complete();
     });
   };
 
   const handleCardClick = (id: string) => {
     history.push(`/plant/${id}`);
+  };
+
+  const handleExternalPlantSelect = (pageId: number) => {
+    setExternalSearchPageId(pageId);
+    history.push(`/plant/ext_${pageId}`);
   };
 
 
@@ -160,7 +175,24 @@ const StudyPage: React.FC = () => {
         </div>
 
         {filteredPlants.length === 0 ? (
-          <EmptyState message={t('study.noResults')} />
+          <>
+            <EmptyState message={t('study.noResults')} />
+            {searchQuery.trim() && (
+              <div style={{ padding: '0 16px 16px' }}>
+                <ExternalSearch
+                  query={searchQuery}
+                  onPlantSelect={handleExternalPlantSelect}
+                />
+                {externalSearchPageId && (
+                  <IonText color="medium">
+                    <p style={{ fontSize: '0.8rem', marginTop: '8px' }}>
+                      Opening external plant ID: {externalSearchPageId}
+                    </p>
+                  </IonText>
+                )}
+              </div>
+            )}
+          </>
         ) : (
           <IonGrid>
             <IonRow>

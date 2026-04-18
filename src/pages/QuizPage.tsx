@@ -5,33 +5,11 @@ import { useTranslation } from 'react-i18next';
 import AppHeader from '../components/layout/AppHeader';
 import QuizReview from '../components/quiz/QuizReview';
 import { PlantDataService } from '../services/PlantDataService';
+import { LearningPlantDataService } from '../services/LearningPlantDataService';
 import { ImageService } from '../services/ImageService';
 import { StorageService } from '../services/StorageService';
 import type { Plant, QuizQuestion, QuizAnswer } from '../types';
-
-function generateQuestions(plants: Plant[], count: number): QuizQuestion[] {
-  if (plants.length < 4) return [];
-  const shuffled = [...plants].sort(() => Math.random() - 0.5);
-  const selected = shuffled.slice(0, Math.min(count, shuffled.length));
-
-  return selected.map((plant, index) => {
-    const type = Math.random() > 0.5 ? 'IMAGE_TO_NAME' : 'NAME_TO_IMAGE';
-    const others = plants.filter(p => p.id !== plant.id).sort(() => Math.random() - 0.5).slice(0, 3);
-    const allOptions = [plant, ...others].sort(() => Math.random() - 0.5);
-    const correctIndex = allOptions.findIndex(p => p.id === plant.id);
-
-    return {
-      id: `q_${index}`,
-      type: type as 'IMAGE_TO_NAME' | 'NAME_TO_IMAGE',
-      plant,
-      options: type === 'IMAGE_TO_NAME'
-        ? allOptions.map(p => p.latinName)
-        : allOptions.map(p => p.id),
-      correctIndex,
-      imageUrl: plant.thumbnail || undefined,
-    };
-  });
-}
+import { generateQuestions } from '../services/QuizQuestionService';
 
 const QuizPage: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -45,8 +23,9 @@ const QuizPage: React.FC = () => {
   const [plants, setPlants] = useState<Plant[]>([]);
 
   useEffect(() => {
-    PlantDataService.initialize().then(() => {
-      setPlants(PlantDataService.getBundledPlants());
+    PlantDataService.initialize().then(async () => {
+      const mergedPlants = await LearningPlantDataService.composePlantsWithCachedDetails(PlantDataService.getBundledPlants());
+      setPlants(mergedPlants);
     });
     StorageService.getQuizHighScore().then(score => setHighScore(score));
   }, []);
@@ -100,7 +79,7 @@ const QuizPage: React.FC = () => {
     if (!nextQ) return;
     const urls: string[] = [];
     if (nextQ.imageUrl) urls.push(nextQ.imageUrl);
-    if (nextQ.type === 'NAME_TO_IMAGE') {
+    if (nextQ.type === 'NAME_TO_IMAGE' || nextQ.type === 'PROPERTY_TO_NAME') {
       nextQ.options.forEach(optId => {
         const p = plants.find(pl => pl.id === optId);
         if (p) {
@@ -198,7 +177,7 @@ const QuizPage: React.FC = () => {
               ))}
             </div>
           </>
-        ) : (
+        ) : currentQuestion.type === 'NAME_TO_IMAGE' ? (
           <>
             <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
               {currentQuestion.plant.names[i18n.language] || currentQuestion.plant.names.en || currentQuestion.plant.latinName}
@@ -230,6 +209,34 @@ const QuizPage: React.FC = () => {
                       </div>
                     )}
                     <p style={{ margin: '4px 0 0', fontSize: '0.75rem' }}>{optPlant?.latinName}</p>
+                  </button>
+                );
+              })}
+            </div>
+          </>
+        ) : (
+          <>
+            <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
+              {currentQuestion.prompt || 'Which plant matches this property?'}
+            </p>
+            <p style={{ textAlign: 'center', color: 'var(--ion-color-medium)' }}>
+              {currentQuestion.propertyKey}: {currentQuestion.propertyValue}
+            </p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '16px' }}>
+              {currentQuestion.options.map((optionId, index) => {
+                const optPlant = plants.find(p => p.id === optionId);
+                const label = optPlant
+                  ? (optPlant.names[i18n.language] || optPlant.names.en || optPlant.latinName)
+                  : optionId;
+                return (
+                  <button
+                    key={index}
+                    onClick={() => handleAnswer(index)}
+                    disabled={selectedIndex !== null}
+                    aria-label={label}
+                    style={{ padding: '12px', border: '1px solid var(--ion-color-medium)', borderRadius: '8px', background: 'var(--ion-item-background)', ...getOptionStyle(index) }}
+                  >
+                    {label}
                   </button>
                 );
               })}

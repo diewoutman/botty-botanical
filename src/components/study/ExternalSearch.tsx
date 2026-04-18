@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { IonItem, IonLabel, IonList, IonButton, IonSpinner, IonIcon } from '@ionic/react';
+import React, { useEffect, useState } from 'react';
+import { IonItem, IonLabel, IonList, IonSpinner, IonIcon } from '@ionic/react';
 import { globeOutline } from 'ionicons/icons';
-import { PlantApiService, WikipediaTemporarilyUnavailableError } from '../../services/PlantApiService';
+import { PlantDataService } from '../../services/PlantDataService';
 import { useNetwork } from '../../hooks/useNetwork';
 
 interface ExternalSearchProps {
@@ -16,23 +16,40 @@ const ExternalSearch: React.FC<ExternalSearchProps> = ({ query, onPlantSelect })
   const [searched, setSearched] = useState(false);
   const [temporaryUnavailable, setTemporaryUnavailable] = useState(false);
 
-  const handleSearch = async () => {
-    if (!isOnline || !query.trim()) return;
+  useEffect(() => {
+    if (!isOnline || !query.trim()) {
+      setResults([]);
+      setSearched(false);
+      setTemporaryUnavailable(false);
+      return;
+    }
+
+    const controller = new AbortController();
     setLoading(true);
     setTemporaryUnavailable(false);
-    try {
-      const searchResults = await PlantApiService.searchWikipedia(query);
-      setResults(searchResults);
-    } catch (error) {
-      setResults([]);
-      if (error instanceof WikipediaTemporarilyUnavailableError) {
+
+    const run = async () => {
+      try {
+        const searchResults = await PlantDataService.searchExternal(query);
+        if (controller.signal.aborted) return;
+        setResults(searchResults);
+      } catch {
+        if (controller.signal.aborted) return;
+        setResults([]);
         setTemporaryUnavailable(true);
+      } finally {
+        if (controller.signal.aborted) return;
+        setLoading(false);
+        setSearched(true);
       }
-    } finally {
-      setLoading(false);
-      setSearched(true);
-    }
-  };
+    };
+
+    run();
+
+    return () => {
+      controller.abort();
+    };
+  }, [isOnline, query]);
 
   if (!isOnline) {
     return (
@@ -45,22 +62,16 @@ const ExternalSearch: React.FC<ExternalSearchProps> = ({ query, onPlantSelect })
 
   return (
     <div style={{ marginTop: '1rem' }}>
-      {!searched && !loading && (
-        <IonButton fill="outline" expand="block" onClick={handleSearch}>
-          Search Wikipedia for &quot;{query}&quot;
-        </IonButton>
-      )}
-
       {loading && (
         <div style={{ textAlign: 'center', padding: '1rem' }}>
           <IonSpinner name="crescent" />
-          <p>Searching Wikipedia...</p>
+          <p>Searching plant sources...</p>
         </div>
       )}
 
       {searched && !loading && results.length === 0 && (
         <p style={{ textAlign: 'center', color: 'var(--ion-color-medium)' }}>
-          {temporaryUnavailable ? 'Wikipedia is temporarily unavailable. Please try again shortly.' : 'No results found on Wikipedia'}
+          {temporaryUnavailable ? 'Plant search is temporarily unavailable. Please try again shortly.' : 'No plant results found'}
         </p>
       )}
 

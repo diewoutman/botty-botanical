@@ -1,6 +1,6 @@
 import type { Plant, PlantDetail } from '../types';
 import { StorageService } from './StorageService';
-import { PlantApiService, type RejectionReason } from './PlantApiService';
+import { PlantApiService, type ExtPlantResult, type RejectionReason } from './PlantApiService';
 import { buildAssetUrl } from './AssetUrlService';
 
 const INGESTION_CONFIG = {
@@ -73,6 +73,21 @@ function mapExternalResultToPlant(result: { title: string; snippet: string; page
 function recordRejection(reason: RejectionReason) {
   ingestionMetrics.rejected += 1;
   ingestionMetrics.reasons[reason] += 1;
+}
+
+function normalizeLookupValue(value: string): string {
+  return value.toLowerCase().trim().replace(/\s+/g, ' ');
+}
+
+function findKnownPlantBySearchQuery(query: string): Plant | null {
+  const normalizedQuery = normalizeLookupValue(query);
+  if (!normalizedQuery) return null;
+
+  const all = [...coreData, ...externalData];
+  return all.find((plant) => {
+    if (normalizeLookupValue(plant.latinName) === normalizedQuery) return true;
+    return Object.values(plant.names).some((name) => normalizeLookupValue(name) === normalizedQuery);
+  }) || null;
 }
 
 export const PlantDataService = {
@@ -237,8 +252,32 @@ export const PlantDataService = {
     });
   },
 
-  async searchExternal(query: string) {
-    return PlantApiService.searchExternalPlants(query, 20, 0);
+  async searchExternal(query: string): Promise<ExtPlantResult[]> {
+    const knownPlant = findKnownPlantBySearchQuery(query);
+    if (knownPlant) {
+      if (!knownPlant.wikiPageId) return [];
+      return [{
+        title: knownPlant.latinName,
+        snippet: 'Known plant',
+        pageId: knownPlant.wikiPageId,
+      }];
+    }
+
+    const remoteResults = await PlantApiService.searchExternalPlants(query, 20, 0);
+    const filtered: ExtPlantResult[] = [];
+
+    for (const result of remoteResults) {
+      const prefilter = PlantApiService.isCandidateRelevant(result.title, result.snippet);
+      if (!prefilter.accepted) continue;
+
+      const validation = await PlantApiService.validateBotanicalCandidate(result.title);
+      if (!validation.accepted) continue;
+
+      filtered.push(result);
+      if (filtered.length >= 10) break;
+    }
+
+    return filtered;
   },
 
   async fetchExternalPlantDetails(pageId: number): Promise<PlantDetail | null> {

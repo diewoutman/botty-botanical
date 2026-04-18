@@ -46,7 +46,9 @@ const QuizReview: React.FC<QuizReviewProps> = ({ questions, answers, plants, onB
                   </p>
                   {!isCorrect && (
                     <p style={{ color: 'var(--ion-color-success)', fontSize: '0.85rem' }}>
-                      Correct: {question.plant.latinName}
+                      Correct: {question.type === 'PROPERTY_TO_NAME'
+                        ? (question.plant.names[i18n.language] || question.plant.names.en || question.plant.latinName)
+                        : question.plant.latinName}
                     </p>
                   )}
                 </IonLabel>

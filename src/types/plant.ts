@@ -72,7 +72,7 @@ export interface DataSource {
   url: string;
 }
 
-export type QuestionType = 'IMAGE_TO_NAME' | 'NAME_TO_IMAGE';
+export type QuestionType = 'IMAGE_TO_NAME' | 'NAME_TO_IMAGE' | 'PROPERTY_TO_NAME';
 
 export interface QuizQuestion {
   id: string;
@@ -81,6 +81,9 @@ export interface QuizQuestion {
   options: string[];
   correctIndex: number;
   imageUrl?: string;
+  prompt?: string;
+  propertyKey?: 'family' | 'growthHabit' | 'nativeRange';
+  propertyValue?: string;
 }
 
 export interface QuizResult {
