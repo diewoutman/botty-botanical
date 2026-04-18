@@ -76,12 +76,13 @@ export interface ExtPlantResult {
 }
 
 export const PlantApiService = {
-  async searchWikipedia(query: string): Promise<WikiSearchResult[]> {
+  async searchWikipedia(query: string, limit = 10, offset = 0): Promise<WikiSearchResult[]> {
     const params = new URLSearchParams({
       action: 'query',
       list: 'search',
       srsearch: query,
-      srlimit: '10',
+      srlimit: String(limit),
+      sroffset: String(offset),
       format: 'json',
       origin: '*',
     });
@@ -191,8 +192,8 @@ export const PlantApiService = {
     }
   },
 
-  async searchExternalPlants(query: string): Promise<ExtPlantResult[]> {
-    const wikiResults = await this.searchWikipedia(query);
+  async searchExternalPlants(query: string, limit = 10, offset = 0): Promise<ExtPlantResult[]> {
+    const wikiResults = await this.searchWikipedia(query, limit, offset);
     return wikiResults.map(r => ({
       title: r.title,
       snippet: r.snippet,

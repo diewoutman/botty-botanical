@@ -7,6 +7,8 @@ export interface Plant {
   thumbnail: string | null;
   category: PlantCategory;
   popularityScore: number;
+  isExternal?: boolean;
+  wikiPageId?: number;
 }
 
 export interface PlantDetail {

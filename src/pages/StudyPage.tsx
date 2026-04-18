@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { IonPage, IonContent, IonSearchbar, IonGrid, IonRow, IonCol, IonChip, IonLabel, IonInfiniteScroll, IonInfiniteScrollContent, IonRefresher, IonRefresherContent } from '@ionic/react';
+import { IonPage, IonContent, IonSearchbar, IonGrid, IonRow, IonCol, IonChip, IonLabel, IonInfiniteScroll, IonInfiniteScrollContent, IonRefresher, IonRefresherContent, IonText } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import AppHeader from '../components/layout/AppHeader';
 import PlantCard from '../components/study/PlantCard';
-import ExternalSearch from '../components/study/ExternalSearch';
+
 import EmptyState from '../components/common/EmptyState';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import { PlantDataService } from '../services/PlantDataService';
@@ -29,14 +29,28 @@ const StudyPage: React.FC = () => {
   const [displayCount, setDisplayCount] = useState(PAGE_SIZE);
   const [initialized, setInitialized] = useState(false);
   const [allPlants, setAllPlants] = useState<Plant[]>([]);
+  const [bgLoaded, setBgLoaded] = useState(0);
 
   useEffect(() => {
+    let mounted = true;
+
     PlantDataService.initialize().then(() => {
+      if (!mounted) return;
       const plants = PlantDataService.getBundledPlants();
       console.log('StudyPage: loaded', plants.length, 'plants, first:', plants[0]?.latinName);
       setAllPlants(plants);
       setInitialized(true);
+
+      PlantDataService.startBackgroundExternalLoad((count) => {
+        if (!mounted) return;
+        setBgLoaded(count);
+        setAllPlants(PlantDataService.getBundledPlants());
+      }).catch(() => undefined);
     });
+
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   const filteredPlants = useMemo(() => {
@@ -75,11 +89,9 @@ const StudyPage: React.FC = () => {
     history.push(`/plant/${id}`);
   };
 
-  const handleExternalSelect = (pageId: number) => {
-    history.push(`/plant/ext_${pageId}`);
-  };
+  
 
-  const showExternalSearch = searchQuery.trim().length >= 3 && filteredPlants.length === 0;
+  const showExternalSearch = false;
 
   if (!initialized) {
     return (
@@ -125,6 +137,14 @@ const StudyPage: React.FC = () => {
           ))}
         </div>
 
+        <div style={{ padding: '0 16px 8px' }}>
+          <IonText color="medium">
+            <p style={{ margin: 0, fontSize: '0.85rem' }}>
+              {allPlants.length} plants loaded {bgLoaded > 0 ? `(${bgLoaded} background)` : ''}
+            </p>
+          </IonText>
+        </div>
+
         {!showExternalSearch && filteredPlants.length === 0 ? (
           <EmptyState message={t('study.noResults')} />
         ) : (
@@ -139,10 +159,7 @@ const StudyPage: React.FC = () => {
           </IonGrid>
         )}
 
-        {showExternalSearch && (
-          <ExternalSearch query={searchQuery} onPlantSelect={handleExternalSelect} />
-        )}
-
+        
         <IonInfiniteScroll onIonInfinite={loadMore} threshold="100px">
           <IonInfiniteScrollContent loadingText={t('common.loading')} />
         </IonInfiniteScroll>
