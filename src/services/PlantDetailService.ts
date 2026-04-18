@@ -1,4 +1,5 @@
 import type { PlantDetail } from '../types';
+import { buildAssetUrl } from './AssetUrlService';
 
 let coreDetails: Record<string, PlantDetail> = {};
 let initialized = false;
@@ -11,7 +12,7 @@ export const PlantDetailService = {
 
     initPromise = (async () => {
       try {
-        const response = await fetch('/assets/data/plants-detail.json');
+        const response = await fetch(buildAssetUrl('assets/data/plants-detail.json'));
         console.log('PlantDetailService: fetch status', response.status, response.ok);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const details: PlantDetail[] = await response.json();

@@ -30,6 +30,8 @@ const StudyPage: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
   const [allPlants, setAllPlants] = useState<Plant[]>([]);
   const [bgLoaded, setBgLoaded] = useState(0);
+  const [bgLoading, setBgLoading] = useState(false);
+  const [metrics, setMetrics] = useState(PlantDataService.getIngestionMetrics());
 
   useEffect(() => {
     let mounted = true;
@@ -40,12 +42,21 @@ const StudyPage: React.FC = () => {
       console.log('StudyPage: loaded', plants.length, 'plants, first:', plants[0]?.latinName);
       setAllPlants(plants);
       setInitialized(true);
+      setBgLoading(PlantDataService.isBackgroundLoading());
+      setMetrics(PlantDataService.getIngestionMetrics());
 
       PlantDataService.startBackgroundExternalLoad((count) => {
         if (!mounted) return;
         setBgLoaded(count);
         setAllPlants(PlantDataService.getBundledPlants());
-      }).catch(() => undefined);
+        setBgLoading(PlantDataService.isBackgroundLoading());
+        setMetrics(PlantDataService.getIngestionMetrics());
+      })
+        .finally(() => {
+          if (!mounted) return;
+          setBgLoading(false);
+          setMetrics(PlantDataService.getIngestionMetrics());
+        });
     });
 
     return () => {
@@ -89,9 +100,6 @@ const StudyPage: React.FC = () => {
     history.push(`/plant/${id}`);
   };
 
-  
-
-  const showExternalSearch = false;
 
   if (!initialized) {
     return (
@@ -140,12 +148,18 @@ const StudyPage: React.FC = () => {
         <div style={{ padding: '0 16px 8px' }}>
           <IonText color="medium">
             <p style={{ margin: 0, fontSize: '0.85rem' }}>
-              {allPlants.length} plants loaded {bgLoaded > 0 ? `(${bgLoaded} background)` : ''}
+              {allPlants.length} plants loaded {bgLoaded > 0 ? `(${bgLoaded} background validated)` : ''}
+            </p>
+            <p style={{ margin: '4px 0 0', fontSize: '0.8rem' }}>
+              {bgLoading ? 'Background ingestion running...' : 'Background ingestion idle'}
+            </p>
+            <p style={{ margin: '4px 0 0', fontSize: '0.8rem' }}>
+              Accepted: {metrics.accepted} · Rejected: {metrics.rejected}
             </p>
           </IonText>
         </div>
 
-        {!showExternalSearch && filteredPlants.length === 0 ? (
+        {filteredPlants.length === 0 ? (
           <EmptyState message={t('study.noResults')} />
         ) : (
           <IonGrid>

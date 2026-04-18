@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IonItem, IonLabel, IonList, IonButton, IonSpinner, IonIcon } from '@ionic/react';
 import { globeOutline } from 'ionicons/icons';
-import { PlantApiService } from '../../services/PlantApiService';
+import { PlantApiService, WikipediaTemporarilyUnavailableError } from '../../services/PlantApiService';
 import { useNetwork } from '../../hooks/useNetwork';
 
 interface ExternalSearchProps {
@@ -14,15 +14,20 @@ const ExternalSearch: React.FC<ExternalSearchProps> = ({ query, onPlantSelect })
   const [results, setResults] = useState<{ title: string; snippet: string; pageId: number }[]>([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
+  const [temporaryUnavailable, setTemporaryUnavailable] = useState(false);
 
   const handleSearch = async () => {
     if (!isOnline || !query.trim()) return;
     setLoading(true);
+    setTemporaryUnavailable(false);
     try {
       const searchResults = await PlantApiService.searchWikipedia(query);
       setResults(searchResults);
-    } catch {
+    } catch (error) {
       setResults([]);
+      if (error instanceof WikipediaTemporarilyUnavailableError) {
+        setTemporaryUnavailable(true);
+      }
     } finally {
       setLoading(false);
       setSearched(true);
@@ -55,7 +60,7 @@ const ExternalSearch: React.FC<ExternalSearchProps> = ({ query, onPlantSelect })
 
       {searched && !loading && results.length === 0 && (
         <p style={{ textAlign: 'center', color: 'var(--ion-color-medium)' }}>
-          No results found on Wikipedia
+          {temporaryUnavailable ? 'Wikipedia is temporarily unavailable. Please try again shortly.' : 'No results found on Wikipedia'}
         </p>
       )}
 

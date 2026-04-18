@@ -2,35 +2,63 @@ const WIKI_API_BASE = 'https://en.wikipedia.org/w/api.php';
 const GBIF_API_BASE = 'https://api.gbif.org/v1';
 
 const RATE_LIMIT_MS = 1000;
+const MAX_RETRIES = 3;
+const BASE_RETRY_DELAY_MS = 500;
 let lastRequestTime = 0;
+
+export class WikipediaTemporarilyUnavailableError extends Error {
+  constructor() {
+    super('Wikipedia is temporarily unavailable. Please try again shortly.');
+    this.name = 'WikipediaTemporarilyUnavailableError';
+  }
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function jitteredBackoff(attempt: number): number {
+  const base = BASE_RETRY_DELAY_MS * Math.pow(2, attempt);
+  const jitter = Math.floor(Math.random() * 250);
+  return base + jitter;
+}
 
 async function rateLimitedFetch(url: string, signal?: AbortSignal): Promise<Response> {
   const now = Date.now();
   const timeSinceLast = now - lastRequestTime;
   if (timeSinceLast < RATE_LIMIT_MS) {
-    await new Promise(resolve => setTimeout(resolve, RATE_LIMIT_MS - timeSinceLast));
+    await sleep(RATE_LIMIT_MS - timeSinceLast);
   }
   lastRequestTime = Date.now();
   return fetch(url, { signal });
 }
 
-async function fetchWithRetry(url: string, retries = 3, signal?: AbortSignal): Promise<Response> {
+async function fetchWithRetry(url: string, retries = MAX_RETRIES, signal?: AbortSignal): Promise<Response> {
   for (let attempt = 0; attempt < retries; attempt++) {
     try {
       const response = await rateLimitedFetch(url, signal);
       if (response.ok) return response;
-      if (response.status === 429) {
-        const backoff = Math.pow(2, attempt) * 1000;
-        await new Promise(resolve => setTimeout(resolve, backoff));
+
+      const retryableStatus = response.status === 429 || response.status >= 500;
+      if (retryableStatus && attempt < retries - 1) {
+        await sleep(jitteredBackoff(attempt));
         continue;
       }
+
+      if (response.status === 429) {
+        throw new WikipediaTemporarilyUnavailableError();
+      }
+
       throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     } catch (error) {
+      if (error instanceof WikipediaTemporarilyUnavailableError) {
+        throw error;
+      }
       if (attempt === retries - 1) throw error;
-      await new Promise(resolve => setTimeout(resolve, Math.pow(2, attempt) * 500));
+      await sleep(jitteredBackoff(attempt));
     }
   }
-  throw new Error('Max retries exceeded');
+  throw new WikipediaTemporarilyUnavailableError();
 }
 
 export interface WikiSearchResult {
@@ -75,7 +103,74 @@ export interface ExtPlantResult {
   pageId: number;
 }
 
+export type RejectionReason =
+  | 'keyword_reject'
+  | 'disambiguation_or_list'
+  | 'no_gbif_match'
+  | 'non_plantae'
+  | 'low_confidence';
+
+export interface ValidationResult {
+  accepted: boolean;
+  reason?: RejectionReason;
+  taxonomy?: GbifTaxonomy;
+}
+
+const NON_BOTANICAL_TERMS = [
+  'power plant',
+  'plant milk',
+  'milk',
+  'human',
+  'factory',
+  'industrial',
+  'protein',
+  'food',
+  'company',
+  'album',
+  'film',
+  'song',
+  'video game',
+  'character',
+];
+
+const GBIF_CONFIDENCE_THRESHOLD = 70;
+
+function normalizeNameForTaxonomy(input: string): string {
+  const cleaned = input
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\b(var\.|subsp\.|ssp\.|f\.|cv\.)\b/gi, ' ')
+    .replace(/[^a-zA-Z\s-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const parts = cleaned.split(' ').filter(Boolean);
+  return parts.slice(0, 2).join(' ');
+}
+
 export const PlantApiService = {
+  isCandidateRelevant(title: string, snippet: string): ValidationResult {
+    const hay = `${title} ${snippet}`.toLowerCase();
+    if (hay.includes('disambiguation') || hay.includes('list of')) {
+      return { accepted: false, reason: 'disambiguation_or_list' };
+    }
+    if (NON_BOTANICAL_TERMS.some(term => hay.includes(term))) {
+      return { accepted: false, reason: 'keyword_reject' };
+    }
+    return { accepted: true };
+  },
+
+  async validateBotanicalCandidate(title: string): Promise<ValidationResult> {
+    const normalized = normalizeNameForTaxonomy(title) || title;
+    const taxonomy = await this.fetchGbifTaxonomy(normalized);
+    if (!taxonomy) return { accepted: false, reason: 'no_gbif_match' };
+    if ((taxonomy.kingdom || '').toLowerCase() !== 'plantae') {
+      return { accepted: false, reason: 'non_plantae', taxonomy };
+    }
+    if ((taxonomy.confidence || 0) < GBIF_CONFIDENCE_THRESHOLD) {
+      return { accepted: false, reason: 'low_confidence', taxonomy };
+    }
+    return { accepted: true, taxonomy };
+  },
+
   async searchWikipedia(query: string, limit = 10, offset = 0): Promise<WikiSearchResult[]> {
     const params = new URLSearchParams({
       action: 'query',
@@ -110,18 +205,25 @@ export const PlantApiService = {
       origin: '*',
     });
 
-    const response = await fetchWithRetry(`${WIKI_API_BASE}?${params}`);
-    const data = await response.json();
-    const page = data.query?.pages?.[pageId];
-    if (!page) return null;
+    try {
+      const response = await fetchWithRetry(`${WIKI_API_BASE}?${params}`);
+      const data = await response.json();
+      const page = data.query?.pages?.[pageId];
+      if (!page) return null;
 
-    return {
-      title: page.title,
-      extract: page.extract || '',
-      thumbnail: page.thumbnail?.source || null,
-      categories: (page.categories || []).map((c: Record<string, string>) => c.title),
-      images: (page.images || []).map((i: Record<string, string>) => i.title),
-    };
+      return {
+        title: page.title,
+        extract: page.extract || '',
+        thumbnail: page.thumbnail?.source || null,
+        categories: (page.categories || []).map((c: Record<string, string>) => c.title),
+        images: (page.images || []).map((i: Record<string, string>) => i.title),
+      };
+    } catch (error) {
+      if (error instanceof WikipediaTemporarilyUnavailableError) {
+        return null;
+      }
+      throw error;
+    }
   },
 
   async fetchWikimediaImages(title: string): Promise<WikiImage[]> {
@@ -193,11 +295,18 @@ export const PlantApiService = {
   },
 
   async searchExternalPlants(query: string, limit = 10, offset = 0): Promise<ExtPlantResult[]> {
-    const wikiResults = await this.searchWikipedia(query, limit, offset);
-    return wikiResults.map(r => ({
-      title: r.title,
-      snippet: r.snippet,
-      pageId: r.pageId,
-    }));
+    try {
+      const wikiResults = await this.searchWikipedia(query, limit, offset);
+      return wikiResults.map(r => ({
+        title: r.title,
+        snippet: r.snippet,
+        pageId: r.pageId,
+      }));
+    } catch (error) {
+      if (error instanceof WikipediaTemporarilyUnavailableError) {
+        return [];
+      }
+      throw error;
+    }
   },
 };
