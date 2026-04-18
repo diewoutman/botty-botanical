@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { IonPage, IonContent, IonList, IonItem, IonLabel, IonBadge, IonImg, IonSkeletonText, IonButton, IonIcon } from '@ionic/react';
+import { IonPage, IonContent, IonList, IonItem, IonLabel, IonBadge, IonImg, IonSkeletonText } from '@ionic/react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { downloadOutline } from 'ionicons/icons';
 import AppHeader from '../components/layout/AppHeader';
 import ImageGallery from '../components/detail/ImageGallery';
 import { PlantDataService } from '../services/PlantDataService';
@@ -17,7 +16,6 @@ const DetailPage: React.FC = () => {
   const [detail, setDetail] = useState<PlantDetail | null>(null);
   const [activeTab, setActiveTab] = useState<'general' | 'deep'>('general');
   const [loading, setLoading] = useState(true);
-  const [downloading, setDownloading] = useState(false);
 
   const isExternal = id?.startsWith('ext_');
 
@@ -46,20 +44,10 @@ const DetailPage: React.FC = () => {
     ? (plant.names[i18n.language] || plant.names.en || plant.latinName)
     : '';
 
-  const handleDownloadOffline = async () => {
-    if (!id || !isExternal) return;
-    setDownloading(true);
-    try {
-      await PlantDataService.fetchExternalPlantDetails(parseInt(id.replace('ext_', '')));
-    } finally {
-      setDownloading(false);
-    }
-  };
-
   if (loading) {
     return (
       <IonPage>
-        <AppHeader title="..." />
+        <AppHeader title="..." showBackButton fallbackRoute="/study" />
         <IonContent>
           <IonSkeletonText animated style={{ width: '100%', height: '200px' }} />
           <div style={{ padding: '16px' }}>
@@ -91,7 +79,7 @@ const DetailPage: React.FC = () => {
 
   return (
     <IonPage>
-      <AppHeader title={displayName} />
+      <AppHeader title={displayName} showBackButton fallbackRoute="/study" />
       <IonContent>
         {plant?.thumbnail ? (
           <IonImg
@@ -131,19 +119,6 @@ const DetailPage: React.FC = () => {
             </div>
           )}
 
-          {isExternal && (
-            <IonButton
-              expand="block"
-              fill="outline"
-              color="success"
-              style={{ marginTop: '12px' }}
-              onClick={handleDownloadOffline}
-              disabled={downloading}
-            >
-              <IonIcon icon={downloadOutline} slot="start" />
-              {downloading ? 'Downloading...' : t('detail.downloadOffline')}
-            </IonButton>
-          )}
         </div>
 
         {detail?.images && detail.images.length > 0 && (

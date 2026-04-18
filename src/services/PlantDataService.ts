@@ -242,7 +242,8 @@ export const PlantDataService = {
   },
 
   async fetchExternalPlantDetails(pageId: number): Promise<PlantDetail | null> {
-    const cached = await StorageService.getPlant(`ext_${pageId}`);
+    const storageKey = `ext_${pageId}`;
+    const cached = await StorageService.getPlant(storageKey);
     if (cached) return cached;
 
     const wikiData = await PlantApiService.fetchPlantDetails(pageId);
@@ -251,7 +252,7 @@ export const PlantDataService = {
     const images = await PlantApiService.fetchWikimediaImages(wikiData.title);
 
     const detail: PlantDetail = {
-      id: `ext_${pageId}`,
+      id: storageKey,
       general: {
         description: { en: wikiData.extract },
         family: '',
@@ -271,7 +272,12 @@ export const PlantDataService = {
       ],
     };
 
-    await StorageService.setPlant(`ext_${pageId}`, detail);
+    try {
+      await StorageService.setPlant(storageKey, detail);
+    } catch (error) {
+      console.warn('Failed to persist external plant detail cache:', error);
+    }
+
     return detail;
   },
 };

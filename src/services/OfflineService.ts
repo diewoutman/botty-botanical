@@ -1,40 +1,10 @@
 import { StorageService } from './StorageService';
-import { PlantApiService } from './PlantApiService';
+import { PlantDataService } from './PlantDataService';
 import type { PlantDetail } from '../types';
 
 export const OfflineService = {
   async cacheExternalPlant(pageId: number): Promise<PlantDetail | null> {
-    const existing = await StorageService.getPlant(`ext_${pageId}`);
-    if (existing) return existing;
-
-    const wikiData = await PlantApiService.fetchPlantDetails(pageId);
-    if (!wikiData) return null;
-
-    const images = await PlantApiService.fetchWikimediaImages(wikiData.title);
-
-    const detail: PlantDetail = {
-      id: `ext_${pageId}`,
-      general: {
-        description: { en: wikiData.extract },
-        family: '',
-        nativeRange: [],
-        growthHabit: '',
-      },
-      deep: null,
-      images: images.map(img => ({
-        url: img.url,
-        thumbnailUrl: img.thumbnailUrl ?? undefined,
-        photographer: img.photographer,
-        license: img.license,
-        sourceUrl: img.url,
-      })),
-      sources: [
-        { name: 'Wikipedia', url: `https://en.wikipedia.org/wiki/${encodeURIComponent(wikiData.title)}` },
-      ],
-    };
-
-    await StorageService.setPlant(`ext_${pageId}`, detail);
-    return detail;
+    return PlantDataService.fetchExternalPlantDetails(pageId);
   },
 
   async downloadAllForOffline(
