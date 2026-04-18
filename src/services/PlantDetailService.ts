@@ -12,7 +12,7 @@ export const PlantDetailService = {
 
     initPromise = (async () => {
       try {
-        const response = await fetch(buildAssetUrl('assets/data/plants-detail.json'));
+        const response = await fetch(buildAssetUrl('assets/data/plants-detail.json?v=100plants-v1'));
         console.log('PlantDetailService: fetch status', response.status, response.ok);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const details: PlantDetail[] = await response.json();

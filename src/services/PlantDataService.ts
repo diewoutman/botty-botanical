@@ -9,6 +9,8 @@ const INGESTION_CONFIG = {
   querySeeds: ['plant', 'flower', 'tree', 'herb', 'grass', 'wildflower', 'fern', 'moss', 'orchid'],
 };
 
+const DATA_VERSION = '100plants-v1';
+
 let debugLastAcceptedSample: string[] = [];
 
 type IngestionMetrics = {
@@ -80,11 +82,11 @@ export const PlantDataService = {
 
     initPromise = (async () => {
       try {
-        const coreResponse = await fetch(buildAssetUrl('assets/data/plants-core.json'));
+        const coreResponse = await fetch(buildAssetUrl(`assets/data/plants-core.json?v=${DATA_VERSION}`));
         console.log('PlantDataService: fetch status', coreResponse.status, coreResponse.ok);
         if (!coreResponse.ok) throw new Error(`HTTP ${coreResponse.status}`);
         coreData = await coreResponse.json();
-        console.log(`Planten Kennis: Loaded ${coreData.length} plants`);
+        console.log(`Planten Kennis: Loaded ${coreData.length} plants (version ${DATA_VERSION})`);
         initialized = true;
       } catch (err) {
         console.error('Failed to load plant data:', err);

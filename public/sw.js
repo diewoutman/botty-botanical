@@ -1,4 +1,4 @@
-var CACHE_NAME = 'planten-kennis-v2';
+var CACHE_NAME = 'planten-kennis-v3';
 
 var STATIC_ASSETS = [
   './',
