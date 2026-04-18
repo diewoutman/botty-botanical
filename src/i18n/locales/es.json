@@ -1,0 +1,18 @@
+{
+  "app": { "name": "Conocimiento Botanico", "offline": "Sin conexion" },
+  "tabs": { "study": "Estudiar", "quiz": "Quiz", "settings": "Ajustes" },
+  "study": {
+    "title": "Estudiar", "search": "Buscar plantas...", "searchWikipedia": "Buscar en Wikipedia", "noResults": "No se encontraron plantas", "filter": "Filtrar",
+    "category": { "all": "Todas", "tree": "Arboles", "flower": "Flores", "shrub": "Arbustos", "herb": "Hierbas", "grass": "Gramineas", "fern": "Helechos", "other": "Otras" }
+  },
+  "detail": {
+    "general": "General", "deep": "En profundidad", "description": "Descripcion", "taxonomy": "Taxonomia", "traits": "Caracteristicas", "nativeRange": "Distribucion natural", "growthHabit": "Habito de crecimiento", "family": "Familia", "genus": "Genero", "species": "Especie", "history": "Historia", "etymology": "Etimologia", "culturalSignificance": "Importancia cultural", "usesTraditional": "Usos tradicionales", "usesModern": "Usos modernos", "conservationStatus": "Estado de conservacion", "attribution": "Atribucion", "viewOnWikipedia": "Ver en Wikipedia", "downloadOffline": "Descargar sin conexion", "noDeepInfo": "Informacion detallada aun no disponible", "images": "Imagenes"
+  },
+  "quiz": {
+    "title": "Quiz", "start": "Iniciar quiz", "question": "Pregunta {{current}} de {{total}}", "typeA": "Cual es el nombre latin de esta planta?", "typeB": "Que imagen muestra esta planta?", "next": "Siguiente", "finish": "Finalizar", "results": "Resultados", "score": "Tu puntuacion", "correct": "Correcto", "incorrect": "Incorrecto", "review": "Revisar respuestas", "tryAgain": "Intentar de nuevo", "backToStudy": "Volver a estudiar", "highScore": "Mejor: {{score}}%", "outOf": "{{correct}} de {{total}}"
+  },
+  "settings": {
+    "title": "Configuracion", "language": "Idioma", "offlineData": "Datos sin conexion", "downloadAll": "Descargar todo sin conexion", "downloadProgress": "Descargando... {{current}} de {{total}}", "clearCache": "Borrar cache", "confirmClear": "Estas seguro? Esto eliminara todos los datos de plantas descargados.", "storageUsed": "Almacenamiento usado: {{size}}", "about": "Acerca de", "attributions": "Atribuciones", "dataSources": "Datos de Wikipedia, GBIF, iNaturalist", "version": "Version"
+  },
+  "common": { "loading": "Cargando...", "error": "Algo salio mal", "retry": "Reintentar", "cancel": "Cancelar", "confirm": "Confirmar" }
+}

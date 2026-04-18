@@ -1,0 +1,18 @@
+{
+  "app": { "name": "Connaissance Botanique", "offline": "Hors ligne" },
+  "tabs": { "study": "Etudier", "quiz": "Quiz", "settings": "Parametres" },
+  "study": {
+    "title": "Etudier", "search": "Rechercher des plantes...", "searchWikipedia": "Rechercher sur Wikipedia", "noResults": "Aucune plante trouvee", "filter": "Filtrer",
+    "category": { "all": "Toutes", "tree": "Arbres", "flower": "Fleurs", "shrub": "Arbustes", "herb": "Herbes", "grass": "Graminees", "fern": "Fougeres", "other": "Autres" }
+  },
+  "detail": {
+    "general": "General", "deep": "En profondeur", "description": "Description", "taxonomy": "Taxonomie", "traits": "Caracteristiques", "nativeRange": "Aire de repartition naturelle", "growthHabit": "Port", "family": "Famille", "genus": "Genre", "species": "Espece", "history": "Histoire", "etymology": "Etymologie", "culturalSignificance": "Signification culturelle", "usesTraditional": "Usages traditionnels", "usesModern": "Usages modernes", "conservationStatus": "Statut de conservation", "attribution": "Attribution", "viewOnWikipedia": "Voir sur Wikipedia", "downloadOffline": "Telecharger hors ligne", "noDeepInfo": "Pas encore d'informations detaillees disponibles", "images": "Images"
+  },
+  "quiz": {
+    "title": "Quiz", "start": "Commencer le quiz", "question": "Question {{current}} sur {{total}}", "typeA": "Quel est le nom latin de cette plante?", "typeB": "Quelle image montre cette plante?", "next": "Suivant", "finish": "Terminer", "results": "Resultats", "score": "Votre score", "correct": "Correct", "incorrect": "Incorrect", "review": "Voir les reponses", "tryAgain": "Reessayer", "backToStudy": "Retour a l'etude", "highScore": "Meilleur: {{score}}%", "outOf": "{{correct}} sur {{total}}"
+  },
+  "settings": {
+    "title": "Parametres", "language": "Langue", "offlineData": "Donnees hors ligne", "downloadAll": "Tout telecharger hors ligne", "downloadProgress": "Telechargement... {{current}} sur {{total}}", "clearCache": "Effacer le cache", "confirmClear": "Etes-vous sur? Cela supprimera toutes les donnees telechargees.", "storageUsed": "Stockage utilise: {{size}}", "about": "A propos", "attributions": "Attributions", "dataSources": "Donnees de Wikipedia, GBIF, iNaturalist", "version": "Version"
+  },
+  "common": { "loading": "Chargement...", "error": "Une erreur s'est produite", "retry": "Reessayer", "cancel": "Annuler", "confirm": "Confirmer" }
+}

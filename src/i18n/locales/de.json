@@ -1,0 +1,22 @@
+{
+  "app": { "name": "Pflanzen Wissen", "offline": "Offline" },
+  "tabs": { "study": "Lernen", "quiz": "Quiz", "settings": "Einstellungen" },
+  "study": {
+    "title": "Lernen",
+    "search": "Pflanzen suchen...",
+    "searchWikipedia": "Auf Wikipedia suchen",
+    "noResults": "Keine Pflanzen gefunden",
+    "filter": "Filter",
+    "category": { "all": "Alle", "tree": "Baume", "flower": "Blumen", "shrub": "Straucher", "herb": "Krauter", "grass": "Graser", "fern": "Farne", "other": "Andere" }
+  },
+  "detail": {
+    "general": "Allgemein", "deep": "Tiefgang", "description": "Beschreibung", "taxonomy": "Taxonomie", "traits": "Merkmale", "nativeRange": "Natürliches Verbreitungsgebiet", "growthHabit": "Wuchsform", "family": "Familie", "genus": "Gattung", "species": "Art", "history": "Geschichte", "etymology": "Etymologie", "culturalSignificance": "Kulturelle Bedeutung", "usesTraditional": "Traditionelle Nutzung", "usesModern": "Moderne Nutzung", "conservationStatus": "Schutzstatus", "attribution": "Quellenangabe", "viewOnWikipedia": "Auf Wikipedia ansehen", "downloadOffline": "Offline herunterladen", "noDeepInfo": "Noch keine Detailinformationen verfügbar", "images": "Bilder"
+  },
+  "quiz": {
+    "title": "Quiz", "start": "Quiz starten", "question": "Frage {{current}} von {{total}}", "typeA": "Wie ist der lateinische Name dieser Pflanze?", "typeB": "Welches Bild zeigt diese Pflanze?", "next": "Weiter", "finish": "Abschliessen", "results": "Ergebnisse", "score": "Dein Ergebnis", "correct": "Richtig", "incorrect": "Falsch", "review": "Antworten uberprufen", "tryAgain": "Nochmal versuchen", "backToStudy": "Zuruck zum Lernen", "highScore": "Bestes: {{score}}%", "outOf": "{{correct}} von {{total}}"
+  },
+  "settings": {
+    "title": "Einstellungen", "language": "Sprache", "offlineData": "Offline-Daten", "downloadAll": "Alle fur Offline herunterladen", "downloadProgress": "Herunterladen... {{current}} von {{total}}", "clearCache": "Cache loschen", "confirmClear": "Bist du sicher? Dies entfernt alle heruntergeladenen Pflanzendaten.", "storageUsed": "Speicher: {{size}}", "about": "Uber", "attributions": "Quellenangaben", "dataSources": "Daten von Wikipedia, GBIF, iNaturalist", "version": "Version"
+  },
+  "common": { "loading": "Laden...", "error": "Etwas ist schiefgelaufen", "retry": "Erneut versuchen", "cancel": "Abbrechen", "confirm": "Bestatigen" }
+}

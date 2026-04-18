@@ -1,0 +1,90 @@
+{
+  "app": {
+    "name": "Planten Kennis",
+    "offline": "Offline"
+  },
+  "tabs": {
+    "study": "Studeren",
+    "quiz": "Quiz",
+    "settings": "Instellingen"
+  },
+  "study": {
+    "title": "Studeren",
+    "search": "Zoek planten...",
+    "searchWikipedia": "Zoek op Wikipedia",
+    "noResults": "Geen planten gevonden",
+    "filter": "Filter",
+    "category": {
+      "all": "Alles",
+      "tree": "Bomen",
+      "flower": "Bloemen",
+      "shrub": "Heesters",
+      "herb": "Kruiden",
+      "grass": "Grassen",
+      "fern": "Varens",
+      "other": "Overig"
+    }
+  },
+  "detail": {
+    "general": "Algemeen",
+    "deep": "Diepgaand",
+    "description": "Beschrijving",
+    "taxonomy": "Taxonomie",
+    "traits": "Eigenschappen",
+    "nativeRange": "Oorspronkelijk verspreidingsgebied",
+    "growthHabit": "Groeigewoonte",
+    "family": "Familie",
+    "genus": "Geslacht",
+    "species": "Soort",
+    "history": "Geschiedenis",
+    "etymology": "Etymologie",
+    "culturalSignificance": "Culturele betekenis",
+    "usesTraditional": "Traditioneel gebruik",
+    "usesModern": "Modern gebruik",
+    "conservationStatus": "Beschermingsstatus",
+    "attribution": "Bronvermelding",
+    "viewOnWikipedia": "Bekijk op Wikipedia",
+    "downloadOffline": "Downloaden voor offline",
+    "noDeepInfo": "Nog geen gedetailleerde informatie beschikbaar",
+    "images": "Afbeeldingen"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "start": "Start Quiz",
+    "question": "Vraag {{current}} van {{total}}",
+    "typeA": "Wat is de Latijnse naam van deze plant?",
+    "typeB": "Welke afbeelding toont deze plant?",
+    "next": "Volgende",
+    "finish": "Voltooien",
+    "results": "Resultaten",
+    "score": "Jouw score",
+    "correct": "Goed",
+    "incorrect": "Fout",
+    "review": "Antwoorden bekijken",
+    "tryAgain": "Opnieuw proberen",
+    "backToStudy": "Terug naar studeren",
+    "highScore": "Beste: {{score}}%",
+    "outOf": "{{correct}} van de {{total}}"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "offlineData": "Offline gegevens",
+    "downloadAll": "Alles downloaden voor offline",
+    "downloadProgress": "Downloaden... {{current}} van {{total}}",
+    "clearCache": "Gecachte gegevens wissen",
+    "confirmClear": "Weet je het zeker? Dit verwijdert alle gedownloade plantengegevens.",
+    "storageUsed": "Gebruikte opslag: {{size}}",
+    "about": "Over",
+    "attributions": "Bronvermeldingen",
+    "dataSources": "Gegevens van Wikipedia, GBIF, iNaturalist",
+    "version": "Versie"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is iets misgegaan",
+    "retry": "Opnieuw",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen"
+  }
+}

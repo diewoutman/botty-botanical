@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "tulipa-gesneriana",
+    "general": {
+      "description": {
+        "nl": "Tulp (Tulipa gesneriana) is een veelvoorkomende plant in Nederland.",
+        "en": "Tulp (Tulipa gesneriana) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Tulp heeft een rijke geschiedenis in Nederland.",
+        "en": "Tulp has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Tulp komt van...",
+        "en": "The name Tulp comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Tulp is cultureel significant in Nederland.",
+        "en": "Tulp is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tulipa%20gesneriana"
+      }
+    ]
+  },
+  {
+    "id": "narcissus-pseudonarcissus",
+    "general": {
+      "description": {
+        "nl": "Narcis (Narcissus pseudonarcissus) is een veelvoorkomende plant in Nederland.",
+        "en": "Narcis (Narcissus pseudonarcissus) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Narcis heeft een rijke geschiedenis in Nederland.",
+        "en": "Narcis has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Narcis komt van...",
+        "en": "The name Narcis comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Narcis is cultureel significant in Nederland.",
+        "en": "Narcis is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Narcissus%20pseudonarcissus"
+      }
+    ]
+  },
+  {
+    "id": "hyacinthus-orientalis",
+    "general": {
+      "description": {
+        "nl": "Hyacint (Hyacinthus orientalis) is een veelvoorkomende plant in Nederland.",
+        "en": "Hyacint (Hyacinthus orientalis) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Hyacint heeft een rijke geschiedenis in Nederland.",
+        "en": "Hyacint has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Hyacint komt van...",
+        "en": "The name Hyacint comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Hyacint is cultureel significant in Nederland.",
+        "en": "Hyacint is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hyacinthus%20orientalis"
+      }
+    ]
+  },
+  {
+    "id": "crocus-vernus",
+    "general": {
+      "description": {
+        "nl": "Krokus (Crocus vernus) is een veelvoorkomende plant in Nederland.",
+        "en": "Krokus (Crocus vernus) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Krokus heeft een rijke geschiedenis in Nederland.",
+        "en": "Krokus has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Krokus komt van...",
+        "en": "The name Krokus comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Krokus is cultureel significant in Nederland.",
+        "en": "Krokus is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Crocus%20vernus"
+      }
+    ]
+  },
+  {
+    "id": "convallaria-majalis",
+    "general": {
+      "description": {
+        "nl": "Lelietje-van-dalen (Convallaria majalis) is een veelvoorkomende plant in Nederland.",
+        "en": "Lelietje-van-dalen (Convallaria majalis) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Lelietje-van-dalen heeft een rijke geschiedenis in Nederland.",
+        "en": "Lelietje-van-dalen has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Lelietje-van-dalen komt van...",
+        "en": "The name Lelietje-van-dalen comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Lelietje-van-dalen is cultureel significant in Nederland.",
+        "en": "Lelietje-van-dalen is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Convallaria%20majalis"
+      }
+    ]
+  },
+  {
+    "id": "quercus-robur",
+    "general": {
+      "description": {
+        "nl": "Zomereik (Quercus robur) is een veelvoorkomende plant in Nederland.",
+        "en": "Zomereik (Quercus robur) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Zomereik heeft een rijke geschiedenis in Nederland.",
+        "en": "Zomereik has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Zomereik komt van...",
+        "en": "The name Zomereik comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Zomereik is cultureel significant in Nederland.",
+        "en": "Zomereik is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quercus%20robur"
+      }
+    ]
+  },
+  {
+    "id": "fagus-sylvatica",
+    "general": {
+      "description": {
+        "nl": "Beuk (Fagus sylvatica) is een veelvoorkomende plant in Nederland.",
+        "en": "Beuk (Fagus sylvatica) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Beuk heeft een rijke geschiedenis in Nederland.",
+        "en": "Beuk has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Beuk komt van...",
+        "en": "The name Beuk comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Beuk is cultureel significant in Nederland.",
+        "en": "Beuk is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fagus%20sylvatica"
+      }
+    ]
+  },
+  {
+    "id": "urtica-dioica",
+    "general": {
+      "description": {
+        "nl": "Brandnetel (Urtica dioica) is een veelvoorkomende plant in Nederland.",
+        "en": "Brandnetel (Urtica dioica) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Brandnetel heeft een rijke geschiedenis in Nederland.",
+        "en": "Brandnetel has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Brandnetel komt van...",
+        "en": "The name Brandnetel comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Brandnetel is cultureel significant in Nederland.",
+        "en": "Brandnetel is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Urtica%20dioica"
+      }
+    ]
+  },
+  {
+    "id": "taraxacum-officinale",
+    "general": {
+      "description": {
+        "nl": "Paardenbloem (Taraxacum officinale) is een veelvoorkomende plant in Nederland.",
+        "en": "Paardenbloem (Taraxacum officinale) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Paardenbloem heeft een rijke geschiedenis in Nederland.",
+        "en": "Paardenbloem has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Paardenbloem komt van...",
+        "en": "The name Paardenbloem comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Paardenbloem is cultureel significant in Nederland.",
+        "en": "Paardenbloem is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Taraxacum%20officinale"
+      }
+    ]
+  },
+  {
+    "id": "plantago-major",
+    "general": {
+      "description": {
+        "nl": "Wegerich (Plantago major) is een veelvoorkomende plant in Nederland.",
+        "en": "Wegerich (Plantago major) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Wegerich heeft een rijke geschiedenis in Nederland.",
+        "en": "Wegerich has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Wegerich komt van...",
+        "en": "The name Wegerich comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Wegerich is cultureel significant in Nederland.",
+        "en": "Wegerich is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Plantago%20major"
+      }
+    ]
+  },
+  {
+    "id": "helianthus-annuus",
+    "general": {
+      "description": {
+        "nl": "Zonnebloem (Helianthus annuus) is een veelvoorkomende plant in Nederland.",
+        "en": "Zonnebloem (Helianthus annuus) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Zonnebloem heeft een rijke geschiedenis in Nederland.",
+        "en": "Zonnebloem has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Zonnebloem komt van...",
+        "en": "The name Zonnebloem comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Zonnebloem is cultureel significant in Nederland.",
+        "en": "Zonnebloem is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helianthus%20annuus"
+      }
+    ]
+  },
+  {
+    "id": "trifolium-repens",
+    "general": {
+      "description": {
+        "nl": "Witte klaver (Trifolium repens) is een veelvoorkomende plant in Nederland.",
+        "en": "Witte klaver (Trifolium repens) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Witte klaver heeft een rijke geschiedenis in Nederland.",
+        "en": "Witte klaver has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Witte klaver komt van...",
+        "en": "The name Witte klaver comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Witte klaver is cultureel significant in Nederland.",
+        "en": "Witte klaver is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trifolium%20repens"
+      }
+    ]
+  },
+  {
+    "id": "bellis-perennis",
+    "general": {
+      "description": {
+        "nl": "Margriet (Bellis perennis) is een veelvoorkomende plant in Nederland.",
+        "en": "Margriet (Bellis perennis) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Margriet heeft een rijke geschiedenis in Nederland.",
+        "en": "Margriet has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Margriet komt van...",
+        "en": "The name Margriet comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Margriet is cultureel significant in Nederland.",
+        "en": "Margriet is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bellis%20perennis"
+      }
+    ]
+  },
+  {
+    "id": "rosa-canina",
+    "general": {
+      "description": {
+        "nl": "Wilde roos (Rosa canina) is een veelvoorkomende plant in Nederland.",
+        "en": "Wilde roos (Rosa canina) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Wilde roos heeft een rijke geschiedenis in Nederland.",
+        "en": "Wilde roos has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Wilde roos komt van...",
+        "en": "The name Wilde roos comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Wilde roos is cultureel significant in Nederland.",
+        "en": "Wilde roos is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rosa%20canina"
+      }
+    ]
+  },
+  {
+    "id": "acer-platanoides",
+    "general": {
+      "description": {
+        "nl": "Noorse esdoorn (Acer platanoides) is een veelvoorkomende plant in Nederland.",
+        "en": "Noorse esdoorn (Acer platanoides) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Noorse esdoorn heeft een rijke geschiedenis in Nederland.",
+        "en": "Noorse esdoorn has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Noorse esdoorn komt van...",
+        "en": "The name Noorse esdoorn comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Noorse esdoorn is cultureel significant in Nederland.",
+        "en": "Noorse esdoorn is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Acer%20platanoides"
+      }
+    ]
+  },
+  {
+    "id": "betula-pendula",
+    "general": {
+      "description": {
+        "nl": "Zilverberk (Betula pendula) is een veelvoorkomende plant in Nederland.",
+        "en": "Zilverberk (Betula pendula) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Zilverberk heeft een rijke geschiedenis in Nederland.",
+        "en": "Zilverberk has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Zilverberk komt van...",
+        "en": "The name Zilverberk comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Zilverberk is cultureel significant in Nederland.",
+        "en": "Zilverberk is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Betula%20pendula"
+      }
+    ]
+  },
+  {
+    "id": "salix-alba",
+    "general": {
+      "description": {
+        "nl": "Witte wilg (Salix alba) is een veelvoorkomende plant in Nederland.",
+        "en": "Witte wilg (Salix alba) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Witte wilg heeft een rijke geschiedenis in Nederland.",
+        "en": "Witte wilg has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Witte wilg komt van...",
+        "en": "The name Witte wilg comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Witte wilg is cultureel significant in Nederland.",
+        "en": "Witte wilg is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Salix%20alba"
+      }
+    ]
+  },
+  {
+    "id": "prunus-avium",
+    "general": {
+      "description": {
+        "nl": "Wilde kersenboom (Prunus avium) is een veelvoorkomende plant in Nederland.",
+        "en": "Wilde kersenboom (Prunus avium) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Wilde kersenboom heeft een rijke geschiedenis in Nederland.",
+        "en": "Wilde kersenboom has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Wilde kersenboom komt van...",
+        "en": "The name Wilde kersenboom comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Wilde kersenboom is cultureel significant in Nederland.",
+        "en": "Wilde kersenboom is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prunus%20avium"
+      }
+    ]
+  },
+  {
+    "id": "sambucus-nigra",
+    "general": {
+      "description": {
+        "nl": "Vlier (Sambucus nigra) is een veelvoorkomende plant in Nederland.",
+        "en": "Vlier (Sambucus nigra) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Vlier heeft een rijke geschiedenis in Nederland.",
+        "en": "Vlier has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Vlier komt van...",
+        "en": "The name Vlier comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Vlier is cultureel significant in Nederland.",
+        "en": "Vlier is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sambucus%20nigra"
+      }
+    ]
+  },
+  {
+    "id": "crataegus-monogyna",
+    "general": {
+      "description": {
+        "nl": "Eenstijlige meidoorn (Crataegus monogyna) is een veelvoorkomende plant in Nederland.",
+        "en": "Eenstijlige meidoorn (Crataegus monogyna) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Eenstijlige meidoorn heeft een rijke geschiedenis in Nederland.",
+        "en": "Eenstijlige meidoorn has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Eenstijlige meidoorn komt van...",
+        "en": "The name Eenstijlige meidoorn comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Eenstijlige meidoorn is cultureel significant in Nederland.",
+        "en": "Eenstijlige meidoorn is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Crataegus%20monogyna"
+      }
+    ]
+  },
+  {
+    "id": "alnus-glutinosa",
+    "general": {
+      "description": {
+        "nl": "Zwarte els (Alnus glutinosa) is een veelvoorkomende plant in Nederland.",
+        "en": "Zwarte els (Alnus glutinosa) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Zwarte els heeft een rijke geschiedenis in Nederland.",
+        "en": "Zwarte els has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Zwarte els komt van...",
+        "en": "The name Zwarte els comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Zwarte els is cultureel significant in Nederland.",
+        "en": "Zwarte els is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alnus%20glutinosa"
+      }
+    ]
+  },
+  {
+    "id": "frangula-alnus",
+    "general": {
+      "description": {
+        "nl": "Vuilboom (Frangula alnus) is een veelvoorkomende plant in Nederland.",
+        "en": "Vuilboom (Frangula alnus) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Vuilboom heeft een rijke geschiedenis in Nederland.",
+        "en": "Vuilboom has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Vuilboom komt van...",
+        "en": "The name Vuilboom comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Vuilboom is cultureel significant in Nederland.",
+        "en": "Vuilboom is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Frangula%20alnus"
+      }
+    ]
+  },
+  {
+    "id": "rumex-obtusifolius",
+    "general": {
+      "description": {
+        "nl": "Ronde zuuring (Rumex obtusifolius) is een veelvoorkomende plant in Nederland.",
+        "en": "Ronde zuuring (Rumex obtusifolius) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Ronde zuuring heeft een rijke geschiedenis in Nederland.",
+        "en": "Ronde zuuring has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Ronde zuuring komt van...",
+        "en": "The name Ronde zuuring comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Ronde zuuring is cultureel significant in Nederland.",
+        "en": "Ronde zuuring is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rumex%20obtusifolius"
+      }
+    ]
+  },
+  {
+    "id": "centaurea-cyanus",
+    "general": {
+      "description": {
+        "nl": "Korenbloem (Centaurea cyanus) is een veelvoorkomende plant in Nederland.",
+        "en": "Korenbloem (Centaurea cyanus) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Korenbloem heeft een rijke geschiedenis in Nederland.",
+        "en": "Korenbloem has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Korenbloem komt van...",
+        "en": "The name Korenbloem comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Korenbloem is cultureel significant in Nederland.",
+        "en": "Korenbloem is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Centaurea%20cyanus"
+      }
+    ]
+  },
+  {
+    "id": "papaver-rhoeas",
+    "general": {
+      "description": {
+        "nl": "Grote klaproos (Papaver rhoeas) is een veelvoorkomende plant in Nederland.",
+        "en": "Grote klaproos (Papaver rhoeas) is a common plant in the Netherlands."
+      },
+      "family": "Unknown",
+      "nativeRange": [
+        "Netherlands",
+        "Europe"
+      ],
+      "growthHabit": "Herbaceous"
+    },
+    "deep": {
+      "history": {
+        "nl": "Grote klaproos heeft een rijke geschiedenis in Nederland.",
+        "en": "Grote klaproos has a rich history in the Netherlands."
+      },
+      "etymology": {
+        "nl": "De naam Grote klaproos komt van...",
+        "en": "The name Grote klaproos comes from..."
+      },
+      "culturalSignificance": {
+        "nl": "Grote klaproos is cultureel significant in Nederland.",
+        "en": "Grote klaproos is culturally significant in the Netherlands."
+      },
+      "usesTraditional": [
+        "Traditional use 1",
+        "Traditional use 2"
+      ],
+      "usesModern": [
+        "Modern use 1",
+        "Modern use 2"
+      ],
+      "conservationStatus": "Least Concern"
+    },
+    "images": [],
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Papaver%20rhoeas"
+      }
+    ]
+  }
+]

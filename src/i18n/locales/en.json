@@ -1,0 +1,90 @@
+{
+  "app": {
+    "name": "Planten Kennis",
+    "offline": "Offline"
+  },
+  "tabs": {
+    "study": "Study",
+    "quiz": "Quiz",
+    "settings": "Settings"
+  },
+  "study": {
+    "title": "Study",
+    "search": "Search plants...",
+    "searchWikipedia": "Search Wikipedia",
+    "noResults": "No plants found",
+    "filter": "Filter",
+    "category": {
+      "all": "All",
+      "tree": "Trees",
+      "flower": "Flowers",
+      "shrub": "Shrubs",
+      "herb": "Herbs",
+      "grass": "Grasses",
+      "fern": "Ferns",
+      "other": "Other"
+    }
+  },
+  "detail": {
+    "general": "General",
+    "deep": "Deep Dive",
+    "description": "Description",
+    "taxonomy": "Taxonomy",
+    "traits": "Traits",
+    "nativeRange": "Native Range",
+    "growthHabit": "Growth Habit",
+    "family": "Family",
+    "genus": "Genus",
+    "species": "Species",
+    "history": "History",
+    "etymology": "Etymology",
+    "culturalSignificance": "Cultural Significance",
+    "usesTraditional": "Traditional Uses",
+    "usesModern": "Modern Uses",
+    "conservationStatus": "Conservation Status",
+    "attribution": "Attribution",
+    "viewOnWikipedia": "View on Wikipedia",
+    "downloadOffline": "Download for offline",
+    "noDeepInfo": "No detailed information available yet",
+    "images": "Images"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "start": "Start Quiz",
+    "question": "Question {{current}} of {{total}}",
+    "typeA": "What is the Latin name of this plant?",
+    "typeB": "Which image shows this plant?",
+    "next": "Next",
+    "finish": "Finish",
+    "results": "Results",
+    "score": "Your score",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "review": "Review Answers",
+    "tryAgain": "Try Again",
+    "backToStudy": "Back to Study",
+    "highScore": "Best: {{score}}%",
+    "outOf": "{{correct}} out of {{total}}"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "offlineData": "Offline Data",
+    "downloadAll": "Download all for offline",
+    "downloadProgress": "Downloading... {{current}} of {{total}}",
+    "clearCache": "Clear cached data",
+    "confirmClear": "Are you sure? This will remove all downloaded plant data.",
+    "storageUsed": "Storage used: {{size}}",
+    "about": "About",
+    "attributions": "Attributions",
+    "dataSources": "Data from Wikipedia, GBIF, iNaturalist",
+    "version": "Version"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  }
+}

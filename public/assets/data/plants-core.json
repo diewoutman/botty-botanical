@@ -1,0 +1,752 @@
+[
+  {
+    "id": "tulipa-gesneriana",
+    "latinName": "Tulipa gesneriana",
+    "names": {
+      "nl": "Tulp",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Tulipa",
+      "species": "Tulipa gesneriana"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 100
+  },
+  {
+    "id": "narcissus-pseudonarcissus",
+    "latinName": "Narcissus pseudonarcissus",
+    "names": {
+      "nl": "Narcis",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Narcissus",
+      "species": "Narcissus pseudonarcissus"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 100
+  },
+  {
+    "id": "hyacinthus-orientalis",
+    "latinName": "Hyacinthus orientalis",
+    "names": {
+      "nl": "Hyacint",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Hyacinthus",
+      "species": "Hyacinthus orientalis"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 100
+  },
+  {
+    "id": "crocus-vernus",
+    "latinName": "Crocus vernus",
+    "names": {
+      "nl": "Krokus",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Crocus",
+      "species": "Crocus vernus"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 100
+  },
+  {
+    "id": "convallaria-majalis",
+    "latinName": "Convallaria majalis",
+    "names": {
+      "nl": "Lelietje-van-dalen",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Convallaria",
+      "species": "Convallaria majalis"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 100
+  },
+  {
+    "id": "quercus-robur",
+    "latinName": "Quercus robur",
+    "names": {
+      "nl": "Zomereik",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Quercus",
+      "species": "Quercus robur"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 95
+  },
+  {
+    "id": "fagus-sylvatica",
+    "latinName": "Fagus sylvatica",
+    "names": {
+      "nl": "Beuk",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Fagus",
+      "species": "Fagus sylvatica"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 95
+  },
+  {
+    "id": "urtica-dioica",
+    "latinName": "Urtica dioica",
+    "names": {
+      "nl": "Brandnetel",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Urtica",
+      "species": "Urtica dioica"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 90
+  },
+  {
+    "id": "taraxacum-officinale",
+    "latinName": "Taraxacum officinale",
+    "names": {
+      "nl": "Paardenbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Taraxacum",
+      "species": "Taraxacum officinale"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 95
+  },
+  {
+    "id": "plantago-major",
+    "latinName": "Plantago major",
+    "names": {
+      "nl": "Wegerich",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Plantago",
+      "species": "Plantago major"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 90
+  },
+  {
+    "id": "helianthus-annuus",
+    "latinName": "Helianthus annuus",
+    "names": {
+      "nl": "Zonnebloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Helianthus",
+      "species": "Helianthus annuus"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 90
+  },
+  {
+    "id": "trifolium-repens",
+    "latinName": "Trifolium repens",
+    "names": {
+      "nl": "Witte klaver",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Trifolium",
+      "species": "Trifolium repens"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 85
+  },
+  {
+    "id": "bellis-perennis",
+    "latinName": "Bellis perennis",
+    "names": {
+      "nl": "Margriet",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Bellis",
+      "species": "Bellis perennis"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 85
+  },
+  {
+    "id": "rosa-canina",
+    "latinName": "Rosa canina",
+    "names": {
+      "nl": "Wilde roos",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Rosa",
+      "species": "Rosa canina"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 85
+  },
+  {
+    "id": "acer-platanoides",
+    "latinName": "Acer platanoides",
+    "names": {
+      "nl": "Noorse esdoorn",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Acer",
+      "species": "Acer platanoides"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 80
+  },
+  {
+    "id": "betula-pendula",
+    "latinName": "Betula pendula",
+    "names": {
+      "nl": "Zilverberk",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Betula",
+      "species": "Betula pendula"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 80
+  },
+  {
+    "id": "salix-alba",
+    "latinName": "Salix alba",
+    "names": {
+      "nl": "Witte wilg",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Salix",
+      "species": "Salix alba"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 80
+  },
+  {
+    "id": "prunus-avium",
+    "latinName": "Prunus avium",
+    "names": {
+      "nl": "Wilde kersenboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Prunus",
+      "species": "Prunus avium"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 75
+  },
+  {
+    "id": "sambucus-nigra",
+    "latinName": "Sambucus nigra",
+    "names": {
+      "nl": "Vlier",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Sambucus",
+      "species": "Sambucus nigra"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 80
+  },
+  {
+    "id": "crataegus-monogyna",
+    "latinName": "Crataegus monogyna",
+    "names": {
+      "nl": "Eenstijlige meidoorn",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Crataegus",
+      "species": "Crataegus monogyna"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 75
+  },
+  {
+    "id": "alnus-glutinosa",
+    "latinName": "Alnus glutinosa",
+    "names": {
+      "nl": "Zwarte els",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Alnus",
+      "species": "Alnus glutinosa"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 75
+  },
+  {
+    "id": "frangula-alnus",
+    "latinName": "Frangula alnus",
+    "names": {
+      "nl": "Vuilboom",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Frangula",
+      "species": "Frangula alnus"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 70
+  },
+  {
+    "id": "rumex-obtusifolius",
+    "latinName": "Rumex obtusifolius",
+    "names": {
+      "nl": "Ronde zuuring",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Rumex",
+      "species": "Rumex obtusifolius"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 70
+  },
+  {
+    "id": "centaurea-cyanus",
+    "latinName": "Centaurea cyanus",
+    "names": {
+      "nl": "Korenbloem",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Centaurea",
+      "species": "Centaurea cyanus"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 85
+  },
+  {
+    "id": "papaver-rhoeas",
+    "latinName": "Papaver rhoeas",
+    "names": {
+      "nl": "Grote klaproos",
+      "en": "",
+      "de": "",
+      "fr": "",
+      "es": ""
+    },
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "",
+      "family": "",
+      "genus": "Papaver",
+      "species": "Papaver rhoeas"
+    },
+    "traits": {
+      "sun": "",
+      "water": "",
+      "hardiness": "",
+      "height": "",
+      "growthHabit": ""
+    },
+    "thumbnail": null,
+    "category": "flower",
+    "popularityScore": 85
+  }
+]

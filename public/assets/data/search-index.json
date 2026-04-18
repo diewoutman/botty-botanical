@@ -1,0 +1,302 @@
+[
+  {
+    "id": "tulipa-gesneriana",
+    "terms": [
+      "tulipa gesneriana",
+      "tulp",
+      "tulipa"
+    ],
+    "preview": {
+      "latin": "Tulipa gesneriana",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "narcissus-pseudonarcissus",
+    "terms": [
+      "narcissus pseudonarcissus",
+      "narcis",
+      "narcissus"
+    ],
+    "preview": {
+      "latin": "Narcissus pseudonarcissus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "hyacinthus-orientalis",
+    "terms": [
+      "hyacinthus orientalis",
+      "hyacint",
+      "hyacinthus"
+    ],
+    "preview": {
+      "latin": "Hyacinthus orientalis",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "crocus-vernus",
+    "terms": [
+      "crocus vernus",
+      "krokus",
+      "crocus"
+    ],
+    "preview": {
+      "latin": "Crocus vernus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "convallaria-majalis",
+    "terms": [
+      "convallaria majalis",
+      "lelietje-van-dalen",
+      "convallaria"
+    ],
+    "preview": {
+      "latin": "Convallaria majalis",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "quercus-robur",
+    "terms": [
+      "quercus robur",
+      "zomereik",
+      "quercus"
+    ],
+    "preview": {
+      "latin": "Quercus robur",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "fagus-sylvatica",
+    "terms": [
+      "fagus sylvatica",
+      "beuk",
+      "fagus"
+    ],
+    "preview": {
+      "latin": "Fagus sylvatica",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "urtica-dioica",
+    "terms": [
+      "urtica dioica",
+      "brandnetel",
+      "urtica"
+    ],
+    "preview": {
+      "latin": "Urtica dioica",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "taraxacum-officinale",
+    "terms": [
+      "taraxacum officinale",
+      "paardenbloem",
+      "taraxacum"
+    ],
+    "preview": {
+      "latin": "Taraxacum officinale",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "plantago-major",
+    "terms": [
+      "plantago major",
+      "wegerich",
+      "plantago"
+    ],
+    "preview": {
+      "latin": "Plantago major",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "helianthus-annuus",
+    "terms": [
+      "helianthus annuus",
+      "zonnebloem",
+      "helianthus"
+    ],
+    "preview": {
+      "latin": "Helianthus annuus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "trifolium-repens",
+    "terms": [
+      "trifolium repens",
+      "witte klaver",
+      "trifolium"
+    ],
+    "preview": {
+      "latin": "Trifolium repens",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "bellis-perennis",
+    "terms": [
+      "bellis perennis",
+      "margriet",
+      "bellis"
+    ],
+    "preview": {
+      "latin": "Bellis perennis",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "rosa-canina",
+    "terms": [
+      "rosa canina",
+      "wilde roos",
+      "rosa"
+    ],
+    "preview": {
+      "latin": "Rosa canina",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "acer-platanoides",
+    "terms": [
+      "acer platanoides",
+      "noorse esdoorn",
+      "acer"
+    ],
+    "preview": {
+      "latin": "Acer platanoides",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "betula-pendula",
+    "terms": [
+      "betula pendula",
+      "zilverberk",
+      "betula"
+    ],
+    "preview": {
+      "latin": "Betula pendula",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "salix-alba",
+    "terms": [
+      "salix alba",
+      "witte wilg",
+      "salix"
+    ],
+    "preview": {
+      "latin": "Salix alba",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "prunus-avium",
+    "terms": [
+      "prunus avium",
+      "wilde kersenboom",
+      "prunus"
+    ],
+    "preview": {
+      "latin": "Prunus avium",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "sambucus-nigra",
+    "terms": [
+      "sambucus nigra",
+      "vlier",
+      "sambucus"
+    ],
+    "preview": {
+      "latin": "Sambucus nigra",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "crataegus-monogyna",
+    "terms": [
+      "crataegus monogyna",
+      "eenstijlige meidoorn",
+      "crataegus"
+    ],
+    "preview": {
+      "latin": "Crataegus monogyna",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "alnus-glutinosa",
+    "terms": [
+      "alnus glutinosa",
+      "zwarte els",
+      "alnus"
+    ],
+    "preview": {
+      "latin": "Alnus glutinosa",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "frangula-alnus",
+    "terms": [
+      "frangula alnus",
+      "vuilboom",
+      "frangula"
+    ],
+    "preview": {
+      "latin": "Frangula alnus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "rumex-obtusifolius",
+    "terms": [
+      "rumex obtusifolius",
+      "ronde zuuring",
+      "rumex"
+    ],
+    "preview": {
+      "latin": "Rumex obtusifolius",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "centaurea-cyanus",
+    "terms": [
+      "centaurea cyanus",
+      "korenbloem",
+      "centaurea"
+    ],
+    "preview": {
+      "latin": "Centaurea cyanus",
+      "thumbnail": null
+    }
+  },
+  {
+    "id": "papaver-rhoeas",
+    "terms": [
+      "papaver rhoeas",
+      "grote klaproos",
+      "papaver"
+    ],
+    "preview": {
+      "latin": "Papaver rhoeas",
+      "thumbnail": null
+    }
+  }
+]
